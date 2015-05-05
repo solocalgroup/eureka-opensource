@@ -61,7 +61,7 @@ def get_requirements():
 
 
 setup(
-    name='eureka',
+    name='eureka-opensource',
     version='1.0.0',
     author='Net-ng',
     author_email='contact@net-ng.com',

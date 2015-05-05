@@ -43,7 +43,7 @@ As a pre-requisite, you then need to install `ez_setup` as followed::
 
 You can finally install Eureka open with ``easy_install``::
 
-    $ easy_install eureka-open
+    $ easy_install eureka-opensource
 
 Or download the `compressed archive from PyPI`_ or `from Github`_, extract it, and inside it
 run::
