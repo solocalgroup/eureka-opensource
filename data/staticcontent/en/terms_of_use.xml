@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<terms_of_use>
+
+    <style>
+    .terms-of-use {
+        padding: 10px 15px
+    }
+    .terms-of-use h1 {
+        text-align: center
+    }
+    </style>
+
+    <div class="terms-of-use">
+        <h1>User Charter for the
+            <br/>“Eurêka” site</h1>
+    </div>
+</terms_of_use>

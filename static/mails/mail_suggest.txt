@@ -1,0 +1,11 @@
+Bonjour,
+
+Ce %(current_date)s, une proposition d'amélioration a été déposée par %(firstname)s %(lastname)s (%(email)s).
+
+--
+%(content)s
+--
+Bien cordialement,
+
+A très bientôt sur Eurêka !
+%(base_url)s

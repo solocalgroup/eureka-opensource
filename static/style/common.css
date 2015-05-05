@@ -1,0 +1,130 @@
+/**
+ * Copyright Solocal Group (2015)
+ *
+ * eureka@solocal.com
+ *
+ * This software is a computer program whose purpose is to provide a full
+ * featured participative innovation solution within your organization.
+ *
+ * This software is governed by the CeCILL license under French law and
+ * abiding by the rules of distribution of free software.  You can  use,
+ * modify and/ or redistribute the software under the terms of the CeCILL
+ * license as circulated by CEA, CNRS and INRIA at the following URL
+ * "http://www.cecill.info".
+ *
+ * As a counterpart to the access to the source code and  rights to copy,
+ * modify and redistribute granted by the license, users are provided only
+ * with a limited warranty  and the software's author,  the holder of the
+ * economic rights,  and the successive licensors  have only  limited
+ * liability.
+ *
+ * In this respect, the user's attention is drawn to the risks associated
+ * with loading,  using,  modifying and/or developing or reproducing the
+ * software by the user in light of its specific status of free software,
+ * that may mean  that it is complicated to manipulate,  and  that  also
+ * therefore means  that it is reserved for developers  and  experienced
+ * professionals having in-depth computer knowledge. Users are therefore
+ * encouraged to load and test the software's suitability as regards their
+ * requirements in conditions enabling the security of their systems and/or
+ * data to be ensured and,  more generally, to use and operate it in the
+ * same conditions as regards security.
+ *
+ * The fact that you are presently reading this means that you have had
+ * knowledge of the CeCILL license and that you accept its terms.
+ */
+
+/*
+ * CSS rules that are common to the "desktop" and "mobile" version of Eureka
+ */
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: arial;
+    background-color: #eef8fd;
+    color: #052d37;
+}
+h1 {
+    color: #00aad3;
+    font-size: 28px;
+}
+h2 {
+    color: #ab0552;
+    font-size: 24px;
+    font-weight: normal;
+}
+h3 {
+    color: #00aad3;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+a {
+    color: #052d37;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+pre {
+    padding-bottom: 10px;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    font-family: arial;
+}
+
+/* form elements */
+textarea {
+    border: 1px solid #b3b3b3;
+}
+
+input.text,  /* applies to input of type 'text' or 'password' */
+input.date {
+    border: 1px solid #b3b3b3;
+    padding: 2px;
+}
+
+input.date {
+    width: 90px;
+}
+
+.date-picker {
+    margin: 0 5px;
+}
+
+input.radio, input.checkbox {
+    margin: 0 3px;
+}
+
+input.file {
+}
+
+input.wide,
+textarea.wide {
+    width: 99%; /* not 100% since there's a little border! */
+}
+
+.hidden {
+    display: none;
+}
+
+.nagare-error-message,
+.error-message {
+    color: #C00;
+}
+
+.buttonBox {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.buttonBox input {
+    float: left;
+    margin-right: 10px;
+}

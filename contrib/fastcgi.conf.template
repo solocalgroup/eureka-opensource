@@ -1,0 +1,17 @@
+[publisher]
+type = fastcgi
+host = {fastcgi_host}
+port = {fastcgi_port}
+debug = off
+# kill the process every 10 requests since gc is disabled
+maxRequests = 10
+
+[reloader]
+activated = off
+interval = 1
+
+[sessions]
+type = memcache
+host = {memcached_host}
+port = {memcached_port}
+reset = true

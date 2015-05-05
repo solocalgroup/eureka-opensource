@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-12-02 15:03+0100\n"
+"PO-Revision-Date: 2013-11-28 11:20+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+msgid "INITIAL_STATE"
+msgstr "État Initial"
+
+#, python-format
+msgid "You have %d ideas in state INITIAL_STATE"
+msgstr "Vous avez %d idée(s) en état initial"
+
+msgid "DRAFT_STATE"
+msgstr "Brouillon"
+
+#, python-format
+msgid "You have %d ideas in state DRAFT_STATE"
+msgstr "Vous avez %d idée(s) en état Brouillon"
+
+msgid "FI_NORMALIZE_STATE"
+msgstr "Normalisation par le facilitateur innovation"
+
+#, python-format
+msgid "You have %d ideas in state FI_NORMALIZE_STATE"
+msgstr ""
+"Vous avez %d idée(s) en cours de normalisation par votre facilitateur "
+"innovation"
+
+msgid "AUTHOR_NORMALIZE_STATE"
+msgstr "Normalisation par l'auteur"
+
+#, python-format
+msgid "You have %d ideas in state AUTHOR_NORMALIZE_STATE"
+msgstr "Vous avez %d idée(s) que vous devez enrichir"
+
+msgid "DI_APPRAISAL_STATE"
+msgstr "Évaluation par le développeur d'idées"
+
+#, python-format
+msgid "You have %d ideas in state DI_APPRAISAL_STATE"
+msgstr ""
+"Vous avez %d idée(s) en cours d'évaluation par des développeurs d'idées"
+
+msgid "RETURNED_BY_DI_STATE"
+msgstr "Demande de complément d'informations"
+
+#, python-format
+msgid "You have %d ideas in state RETURNED_BY_DI_STATE"
+msgstr "Vous avez %d idée(s) en demande de complément d'informations"
+
+msgid "DI_APPROVED_STATE"
+msgstr "Recommandation par le développeur d'idées"
+
+#, python-format
+msgid "You have %d ideas in state DI_APPROVED_STATE"
+msgstr "Vous avez %d idée(s) qui ont fait l'objet d'une recommandation"
+
+msgid "SELECTED_STATE"
+msgstr "Sélectionnée"
+
+#, python-format
+msgid "You have %d ideas in state SELECTED_STATE"
+msgstr "Vous avez %d idée(s) sélectionnée(s)"
+
+msgid "PROJECT_STATE"
+msgstr "Mise en projet"
+
+#, python-format
+msgid "You have %d ideas in state PROJECT_STATE"
+msgstr "Vous avez %d idée(s) mise(s) en projet"
+
+msgid "PROTOTYPE_STATE"
+msgstr "Mise en pilote"
+
+#, python-format
+msgid "You have %d ideas in state PROTOTYPE_STATE"
+msgstr "Vous avez %d idée(s) mise(s) en pilote"
+
+msgid "EXTENDED_STATE"
+msgstr "Déployée"
+
+#, python-format
+msgid "You have %d ideas in state EXTENDED_STATE"
+msgstr "Vous avez %d idée(s) deployée(s)"
+
+msgid "FI_REFUSED_STATE"
+msgstr "Refus du facilitateur innovation"
+
+#, python-format
+msgid "You have %d ideas in state FI_REFUSED_STATE"
+msgstr "Vous avez %d idée(s) refusée(s) par votre facilitateur"
+
+msgid "PROTOTYPE_REFUSED_STATE"
+msgstr "Refus de la mise en pilote"
+
+#, python-format
+msgid "You have %d ideas in state PROTOTYPE_REFUSED_STATE"
+msgstr "Vous avez %d idée(s) dont la mise en pilote est refusée"
+
+msgid "DI_REFUSED_STATE"
+msgstr "Refus du développeur d'idée"
+
+#, python-format
+msgid "You have %d ideas in state DI_REFUSED_STATE"
+msgstr "Vous avez %d idée(s) refusée(s) par des développeurs d'idées"
+
+msgid "PROJECT_REFUSED_STATE"
+msgstr "Refus de la mise en projet"
+
+#, python-format
+msgid "You have %d ideas in state PROJECT_REFUSED_STATE"
+msgstr "Vous avez %d idée(s) dont la mise en projet est refusée"
+
+msgid "SELECT_REFUSED_STATE"
+msgstr "Refus de la sélection"
+
+#, python-format
+msgid "You have %d ideas in state SELECT_REFUSED_STATE"
+msgstr "Vous avez %d idée(s) dont la sélection est refusée"
+
+msgid "APPROVAL_REFUSED_STATE"
+msgstr "Refus de la recommandation"
+
+#, python-format
+msgid "You have %d ideas in state APPROVAL_REFUSED_STATE"
+msgstr "Vous avez %d idée(s) dont la recommandation a été refusée"
+
+msgid "DSIG_BASKET_STATE"
+msgstr "Panier DSIG"
+
+#, python-format
+msgid "You have %d ideas in state DSIG_BASKET_STATE"
+msgstr "Vous avez %d idée(s) en état IDée sensible"

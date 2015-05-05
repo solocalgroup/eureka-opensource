@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news>
+    <content>
+        <style type="text/css">
+            <!--
+            .gifts-gallery .gifts {
+                width: 100%;
+            }
+            .gifts-gallery .gifts td {
+                text-align: center;
+                padding: 0 10px 30px;
+            }
+            .gifts-gallery .gifts img {
+                width: 100px;
+            }
+            .gifts-gallery .gifts .title {
+                font-size: 11px;
+                font-weight: bold;
+                line-height: 12px;
+                height: 36px;
+                margin: 0 0 2px;
+            }
+            .gifts-gallery .gifts .legend {
+                font-size: 10px;
+                font-style: italic;
+                margin: 2px 0 0;
+            }
+            .gifts-gallery .asterisk {
+                font-size: 0.9em;
+                font-style: italic;
+            }
+            .gifts-help .infosTabs {
+                margin-bottom: 20px;
+            }
+            -->
+        </style>
+        <div class="gifts-gallery">
+            <h1 class="titlebox">
+                <span>
+                    <a>The Eurêka gifts assortment at a glance ;) *</a>
+                </span>
+            </h1>
+            <table class="gifts">
+                <!-- Line 1 -->
+                <tr>
+                    <td>
+                        <div class='title'>APPLE IPAD 2</div>
+                        <img src="/static/eureka/images/gift1.jpg" alt="gift" />
+                        <div class='legend'>From 5000 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>PHILIPS IPHONE/IPOD CHARGER</div>
+                        <img src="/static/eureka/images/gift2.jpg" alt="gift" />
+                        <div class='legend'>From 250 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>NESPRESSO PIXIE MAGIMIX COFFEE MACHINE</div>
+                        <img src="/static/eureka/images/gift3.jpg" alt="gift" />
+                        <div class='legend'>From 1450 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>BOXED SETS</div>
+                        <img src="/static/eureka/images/gift4.jpg" alt="gift" />
+                        <div class='legend'>From de 400 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>ACER NETBOOK</div>
+                        <img src="/static/eureka/images/gift5.jpg" alt="gift" />
+                        <div class='legend'>From 2000 points on</div>
+                    </td>
+                </tr>
+
+                <!-- Line 2 -->
+                <tr>
+                    <td>
+                        <div class='title'>FRESH EXPRESS MOULINEX ROBOT</div>
+                        <img src="/static/eureka/images/gift6.jpg" alt="gift" />
+                        <div class='legend'>From 530 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>APPLE IPOD NANO 8GO</div>
+                        <img src="/static/eureka/images/gift7.jpg" alt="gift" />
+                        <div class='legend'>From 1620 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>LE TANNEUR CLOTH AND VEGETAL LEATHER SHOULDER BAG</div>
+                        <img src="/static/eureka/images/gift8.jpg" alt="gift" />
+                        <div class='legend'>From 1200 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>CALOR VAPOUR COOKER</div>
+                        <img src="/static/eureka/images/gift9.jpg" alt="gift" />
+                        <div class='legend'>From 460 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>SAMSUNG HOOVER ROBOT</div>
+                        <img src="/static/eureka/images/gift10.jpg" alt="gift" />
+                        <div class='legend'>From 3500 points on</div>
+                    </td>
+                </tr>
+
+                <!-- Line 3 -->
+                <tr>
+                    <td>
+                        <div class='title'>MONTBLANC WATCH</div>
+                        <img src="/static/eureka/images/gift11.jpg" alt="gift" />
+                        <div class='legend'>From 7600 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>APPLE DESKTOP COMPUTER</div>
+                        <img src="/static/eureka/images/gift12.jpg" alt="gift" />
+                        <div class='legend'>From 14000 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>NINTENDO DSi CONSOLE</div>
+                        <img src="/static/eureka/images/gift13.jpg" alt="gift" />
+                        <div class='legend'>From 1450 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>BLACKBERRY 3G SMARTPHONE</div>
+                        <img src="/static/eureka/images/gift14.jpg" alt="gift" />
+                        <div class='legend'>From 2600 points on</div>
+                    </td>
+                    <td>
+                        <div class='title'>CASIO EXILIM CAMERA</div>
+                        <img src="/static/eureka/images/gift15.jpg" alt="gift" />
+                        <div class='legend'>From 940 points on</div>
+                    </td>
+                </tr>
+            </table>
+
+            <div class="asterisk">
+                * Photos and points equivalences are given for information purposes, according to the
+                provider's stock availability. More choice will be proposed at the allotment time, in
+                <strong>July/August</strong> and <strong>December/January</strong>.
+            </div>
+        </div>
+
+        <div class="gifts-help">
+            <h1 class="titlebox" style="clear:left; margin-bottom:20px">
+                <span>
+                    <a>I get involved and everyone win with the Salaried Participatory Innovation</a>
+                </span>
+            </h1>
+
+            <div class="infosTabs">
+                <h2 class="tab active">
+                    <span>
+                        <a>How to win?</a>
+                    </span>
+                </h2>
+                <div class="tabContent">
+                    <p>
+                        <strong>Simply by getting involved!</strong>
+                        Each time I submit an idea, I vote, I answer a poll or I win a challenge,
+                        <strong>I win and accumulate points.</strong>
+                        And when my idea is implemented,
+                        <strong>JACKPOT !</strong>
+                    </p>
+                </div>
+            </div>
+
+            <div class="infosTabs">
+                <h2 class="tab active">
+                    <span>
+                        <a>But Eurêka is also…</a>
+                    </span>
+                </h2>
+                <div class="tabContent">
+                    <p>
+                        …
+                        <strong>rewards</strong>
+                        for the best ones:
+                        <strong>Trophies</strong>
+                        (Best contributor award, best innovative idea award…). … many
+                        <strong>surprises</strong>
+                        and a chance to be involved in a completely new adventure!
+                    </p>
+                </div>
+            </div>
+
+            <div class="infosTabs">
+                <h2 class="tab active">
+                    <span>
+                        <a>What are the accumulated points for?</a>
+                    </span>
+                </h2>
+                <div class="tabContent">
+                    <p>
+                        <strong>For buying gifts at the online shop.</strong>
+                        The more points I get, the more I can indulge myself.
+                        <br />
+                        <br />
+                        <strong>For becoming the program's super STAR:</strong>
+                        the more I participate, the more my status evolve.
+                        <strong>There are 5 status, function of the contribution level:</strong>
+                        Pioneer, Explorer, Discoverer, Visionary and last, the
+                        more active of the community will be proud of holding the Brilliant status.
+                    </p>
+                </div>
+            </div>
+
+            <div class="infosTabs">
+                <h2 class="tab active">
+                    <span>
+                        <a>When can I convert my points?</a>
+                    </span>
+                </h2>
+                <div class="tabContent">
+                    <p>
+                        My available points and my acquired points are visible in <strong>My Profile</strong>.<br/>
+                        <strong>My available points</strong> correspond to the points I haven't converted to gifts yet.<br/>
+                        <strong>My acquired points</strong> correspond to the points I have accumulated since my first connection.<br/>
+                        When my available points reach a <strong>500 points level</strong>, I will be able de convert them to gifts
+                        at two moments in the year: in <strong>July/August</strong> and in <strong>December/January</strong>.<br/>
+                        For better handling of the gifts request and distribution, no request will be processed outside of this 2
+                        periods.<br/>
+                        In the event of an extended absence (due to prolonged illness, motherhood, training...), my points are
+                        kept acquired.<br/>
+                        In the event of a company departure, the balance of the available points could be settled upon the
+                        salaried request before her departure. The gift delivery will be performed in <strong>July/August or in
+                        December/January, function of the distribution agenda</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </content>
+</news>

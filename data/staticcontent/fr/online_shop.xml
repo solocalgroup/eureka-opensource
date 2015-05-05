@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<news>
+    <content>
+        <img src="/static/eureka/images/apercu_catalogue.jpg" />
+        <br/>
+        <p>Téléchargez le dernier catalogue disponible ici
+            <a href="/static/eureka/images/Catalogue_Eureka.pdf" target="_blank">
+                <img src="/static/eureka/images/Mid_picto_download.png" />
+            </a>
+        </p>
+        <br/>
+    </content>
+</news>

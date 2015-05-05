@@ -1,0 +1,2963 @@
+# English translations for eureka.
+# Copyright (C) 2012 PagesJaunes
+# This file is distributed under the same license as the eureka project.
+#
+# , 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: eureka 4.4.0\n"
+"Report-Msgid-Bugs-To: contact@net-ng.com\n"
+"POT-Creation-Date: 2014-10-16 10:42+0200\n"
+"PO-Revision-Date: 2014-10-15 10:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: English <net-ng@net-ng.com>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+msgid "Eureka Desktop"
+msgstr "Eureka"
+
+msgid "here"
+msgstr "here"
+
+msgid "Eurêka"
+msgstr "Eurêka"
+
+msgid "shop"
+msgstr "gift showcase"
+
+msgid "status_level0"
+msgstr "Inactive"
+
+msgid "status_level1"
+msgstr "Pioneer"
+
+msgid "status_level2"
+msgstr "Explorer"
+
+msgid "status_level3"
+msgstr "Discoverer"
+
+msgid "status_level4"
+msgstr "Visionary"
+
+msgid "status_level5"
+msgstr "Brilliant"
+
+msgid "SALES_DOMAIN"
+msgstr "Sales"
+
+msgid "COMMUNICATION_DOMAIN"
+msgstr "Communication"
+
+msgid "SUSTAINABLE_DEVELOPMENT_DOMAIN"
+msgstr "Sustainable development"
+
+msgid "PROCESS_OPTIMIZATION_DOMAIN"
+msgstr "Process optimization"
+
+msgid "COMPUTING_DOMAIN"
+msgstr "Computing"
+
+msgid "LEGAL_DOMAIN"
+msgstr "Legal"
+
+msgid "PRODUCTS_AND_SERVICES_DOMAIN"
+msgstr "Products and services"
+
+msgid "HUMAN_RESOURCES_DOMAIN"
+msgstr "Human resources"
+
+msgid "STRATEGY_DOMAIN"
+msgstr "Strategy"
+
+msgid "TECHNOLOGIES_DOMAIN"
+msgstr "Technologies"
+
+msgid "OFFICE_ENVIRONMENT_DOMAIN"
+msgstr "Workplace environment"
+
+msgid "SITE_PORTAL_IMPROVEMENT_DOMAIN"
+msgstr "Web site / portal"
+
+msgid "DESIGN_IMPROVEMENT_DOMAIN"
+msgstr "Design"
+
+msgid "COMMUNICATION_IMPROVEMENT_DOMAIN"
+msgstr "Communication"
+
+msgid "SITE_FEATURES_IMPROVEMENT_DOMAIN"
+msgstr "Web site features"
+
+msgid "POLL_IMPROVEMENT_DOMAIN"
+msgstr "Poll"
+
+msgid "OTHER_IMPROVEMENT_DOMAIN"
+msgstr "Others"
+
+msgid "FACILITATOR_ROLE"
+msgstr "Facilitator"
+
+msgid "DEVELOPER_ROLE"
+msgstr "Expert"
+
+msgid "DSIG_ROLE"
+msgstr "Administrator"
+
+msgid "MOBILE_ACCESS_ROLE"
+msgstr "Mobile Access"
+
+msgid "Ask the author for further information"
+msgstr "Ask the author for further information"
+
+msgid "Send to the developer"
+msgstr "Send to the right expert"
+
+msgid "Refuse the idea"
+msgstr "Refuse the idea"
+
+msgid "Mark the idea as disturbing"
+msgstr "Mark the idea as disturbing"
+
+msgid "Finalize and send to the facilitator"
+msgstr "Finalize and send to the facilitator"
+
+msgid "Send to another developer"
+msgstr "Send to another expert"
+
+msgid "Finalize and send back to the developer"
+msgstr "Finalize and send back to the expert "
+
+msgid "Select the idea"
+msgstr "Select the idea"
+
+msgid "Set up the implementation"
+msgstr "Implement the idea"
+
+msgid "Set up the pilot"
+msgstr "Set up the pilot"
+
+msgid "Deploy the idea"
+msgstr "Deploy the idea"
+
+msgid "Unmark the idea as disturbing"
+msgstr "Unmark the idea as disturbing"
+
+msgid "Reopen this idea"
+msgstr "Reissue this idea"
+
+msgid "Recommend the idea"
+msgstr "Recommend the idea"
+
+msgid "Your idea has been saved as a draft"
+msgstr "Your idea has been saved as a draft"
+
+msgid "Your idea has been sent to your innovation facilitator"
+msgstr "Your idea has been sent to your innovation facilitator"
+
+msgid "Idea completed"
+msgstr "Idea completed"
+
+msgid "The idea has been sent to the idea developer"
+msgstr "The idea has been sent to an expert"
+
+msgid "Idea successfully reissued"
+msgstr "Idea successfully reissued"
+
+msgid "On"
+msgstr "On"
+
+#, python-format
+msgid "%d hours ago"
+msgstr "%d hours ago"
+
+#, python-format
+msgid "%d minutes ago"
+msgstr "%d minutes ago"
+
+#, python-format
+msgid "%d seconds ago"
+msgstr "%d seconds ago"
+
+msgid "Inconsistent settings"
+msgstr "Inconsistent settings"
+
+#, python-format
+msgid "Password too short: should have at least %d characters"
+msgstr "Password too short: should have at least %d characters"
+
+#, python-format
+msgid ""
+"Too few character cases in password: should have %d cases from lowercase "
+"letters, uppercase letters, digits and punctuation"
+msgstr ""
+"Too few character cases in password: should have %d cases from lowercase "
+"letters, uppercase letters, digits and punctuation"
+
+msgid "Should be a date formatted as dd/mm/yyyy"
+msgstr "Should be a date formatted as dd/mm/yyyy"
+
+msgid "Can't be empty"
+msgstr "Can't be empty"
+
+#, python-format
+msgid "Must be lesser than %s"
+msgstr "Must be lesser than %s"
+
+#, python-format
+msgid "Must be lesser than or equal to %s"
+msgstr "Must be lesser than or equal to %s"
+
+#, python-format
+msgid "Must be greater than %s"
+msgstr "Must be greater than %s"
+
+#, python-format
+msgid "Must be greater than or equal to %s"
+msgstr "Must be greater than or equal to %s"
+
+#, python-format
+msgid "Size must be less than %d KB"
+msgstr "Size must be less than %d KB"
+
+msgid "Transfer was interrupted"
+msgstr "Transfer was interrupted"
+
+msgid "Must be a string"
+msgstr "Must be a string"
+
+msgid "Must be an email address"
+msgstr "Must be an email address"
+
+msgid "No user with this email"
+msgstr "No user with this email"
+
+msgid "Email already used"
+msgstr "Email already used"
+
+msgid "User id already used"
+msgstr "User id already used"
+
+msgid "Should start with an ASCII letter and contain only ASCII letters or digits"
+msgstr "Should start with an ASCII letter and contain only ASCII letters or digits"
+
+msgid "Must be an integer"
+msgstr "Must be an integer"
+
+msgid "Must be a float"
+msgstr "Must be a float"
+
+#, python-format
+msgid "Must be greater than %(min)d"
+msgstr "Must be greater than %(min)d"
+
+#, python-format
+msgid "Duplicate value: %s"
+msgid_plural "Duplicate values: %s"
+msgstr[0] "Duplicate value: %s"
+msgstr[1] "Duplicate values: %s"
+
+#, python-format
+msgid "%s is not a valid value"
+msgstr "%s is not a valid value"
+
+#, python-format
+msgid "%s are not valid values"
+msgstr "%s are not valid values"
+
+#, python-format
+msgid "%s is not a valid email address"
+msgstr "%s is not a valid email address"
+
+#, python-format
+msgid "There's no user with this email address: %s"
+msgstr "There's no user with this email address: %s"
+
+msgid "AUTHOR_NORMALIZE_STATE"
+msgstr "Normalization by the author"
+
+msgid "DRAFT_STATE"
+msgstr "Draft"
+
+msgid "DSIG_BASKET_STATE"
+msgstr "Administrator basket"
+
+msgid "PROTOTYPE_REFUSED_STATE"
+msgstr "Pilot project refused"
+
+msgid "APPROVAL_REFUSED_STATE"
+msgstr "Recommendation refused"
+
+msgid "DI_APPROVED_STATE"
+msgstr "Approved by the expert"
+
+msgid "PROTOTYPE_STATE"
+msgstr "Set up in pilot project"
+
+msgid "DI_REFUSED_STATE"
+msgstr "Not retained by the expert"
+
+msgid "EXTENDED_STATE"
+msgstr "Deployed"
+
+msgid "RETURNED_BY_DI_STATE"
+msgstr "Further information needed"
+
+msgid "SELECT_REFUSED_STATE"
+msgstr "Selection refused"
+
+msgid "FI_REFUSED_STATE"
+msgstr "Not retained by the facilitator"
+
+msgid "PROJECT_STATE"
+msgstr "Being implemented"
+
+msgid "PROJECT_REFUSED_STATE"
+msgstr "Implementation refused"
+
+msgid "SELECTED_STATE"
+msgstr "Selected"
+
+msgid "DI_APPRAISAL_STATE"
+msgstr "Being evaluated by the developer"
+
+msgid "FI_NORMALIZE_STATE"
+msgstr "Normalization by the facilitator"
+
+msgid "INITIAL_STATE"
+msgstr "Initial"
+
+msgid "NO_STEP"
+msgstr "Draft"
+
+msgid "SUGGESTED_STEP"
+msgstr "Recommended"
+
+msgid "EXTENDED_STEP"
+msgstr "Deployed"
+
+msgid "STUDY_STEP"
+msgstr "Being studied"
+
+msgid "SUBMITTED_STEP"
+msgstr "Submitted"
+
+msgid "SELECTED_STEP"
+msgstr "Selected"
+
+msgid "PROJECT_STEP"
+msgstr "Being implemented"
+
+msgid "PROTOTYPE_STEP"
+msgstr "Set up in pilot project"
+
+msgid "FIRST_CONNECTION"
+msgstr "First connection"
+
+msgid "FIRST_CONNECTION_OF_THE_DAY"
+msgstr "First connection of the day (1 per day max)"
+
+msgid "VOTE"
+msgstr "Voted for an idea (3 per day max)"
+
+msgid "ADD_COMMENT"
+msgstr "Added a comment"
+
+msgid "REMOVE_COMMENT"
+msgstr "Removed a comment"
+
+msgid "SUBMIT_IDEA"
+msgstr "Submit idea"
+
+msgid "PUBLISH_IDEA"
+msgstr "Published an idea"
+
+msgid "PUBLISH_CHALLENGE_FIRST_IDEA"
+msgstr "Published the first idea of a challenge"
+
+msgid "APPROVAL"
+msgstr "Subject to approval"
+
+msgid "SELECTED_IDEA"
+msgstr "Selected idea"
+
+msgid "PROJECT_IDEA"
+msgstr "Idea in the planning stage"
+
+msgid "PROTOTYPE_IDEA"
+msgstr "Idea in pilot project"
+
+msgid "EXTENDED_IDEA"
+msgstr "Deployed idea"
+
+msgid "CHANGED_AVATAR"
+msgstr "Picture change"
+
+msgid "CHALLENGE_BONUS"
+msgstr "Challenge bonus"
+
+msgid "POINT_SCALE_CHANGE"
+msgstr "Point scale change"
+
+msgid "BONUS_POINTS"
+msgstr "Bonus points"
+
+msgid "PENALTY_POINTS"
+msgstr "Penalty points"
+
+msgid "GIFT_BOUGHT"
+msgstr "Gift bought"
+
+msgid "OTHER_EXPENSE"
+msgstr "Other expense"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Search an image"
+msgstr "Search an image"
+
+msgid "This image will be removed from the gallery. You must confirm the removal."
+msgstr "This image will be removed from the gallery. You must confirm the removal."
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Image already in gallery"
+msgstr "Image already in gallery"
+
+msgid "eureka_most_liked_comments_week_%U_%Y.xls"
+msgstr "eureka_most_liked_comments_week_%U_%Y.xls"
+
+msgid "News"
+msgstr "News"
+
+msgid "Ongoing projects"
+msgstr "Ongoing projects"
+
+msgid "Headlines"
+msgstr "Headlines"
+
+msgid "Gift purchase"
+msgstr "Gift purchase"
+
+msgid "Other expense"
+msgstr "Other expense"
+
+msgid "Bonus points"
+msgstr "Bonus points"
+
+msgid "Penalty points"
+msgstr "Penalty points"
+
+#, python-format
+msgid "The following users do not have enough available points: %s"
+msgstr "The following users do not have enough available points: %s"
+
+msgid "Modifications done"
+msgstr "Modifications done"
+
+msgid "User modified"
+msgstr "User modified"
+
+msgid "All corporations"
+msgstr "All corporations"
+
+msgid "All directions"
+msgstr "All directions"
+
+msgid "All services"
+msgstr "All services"
+
+msgid "All sites"
+msgstr "All sites"
+
+msgid "All subsites"
+msgstr "All subsites"
+
+msgid "Enabled"
+msgstr "Enabled"
+
+#, python-format
+msgid ""
+"The facilitator role of user \"%s\" will be removed. You must confirm "
+"this change."
+msgstr ""
+"The facilitator role of user \"%s\" will be removed. You must confirm "
+"this change."
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Facilitator replaced"
+msgstr "Facilitator replaced"
+
+msgid "Entity assigned to the facilitator"
+msgstr "Entity assigned to the facilitator"
+
+#, python-format
+msgid ""
+"The expert role of the user \"%s\" will be removed. You must confirm this"
+" change."
+msgstr ""
+"The expert role of the user \"%s\" will be removed. You must confirm this"
+" change."
+
+msgid "Domains changed"
+msgstr "Domains changed"
+
+#, python-format
+msgid "%(title)s: %(url)s"
+msgstr "%(title)s: %(url)s"
+
+msgid "Expert replaced"
+msgstr "Expert replaced"
+
+msgid "Expert's business area updated"
+msgstr "Expert's business area updated"
+
+msgid "Topic"
+msgstr "Topic"
+
+msgid "All changes will be lost. You must confirm that you want to cancel edition"
+msgstr "All changes will be lost. You must confirm that you want to cancel edition"
+
+msgid "Forget changes"
+msgstr "Forget changes"
+
+msgid "Resume"
+msgstr "Resume"
+
+msgid "Reception error"
+msgstr "Reception error"
+
+msgid "Ending date must be later than starting date"
+msgstr "Ending date must be later than starting date"
+
+#, python-format
+msgid "Length must be shorter or equal than %(max)d characters"
+msgstr "Length must be shorter or equal than %(max)d characters"
+
+msgid "Comment added"
+msgstr "Comment added"
+
+msgid "Comment deleted"
+msgstr "Comment deleted"
+
+#, python-format
+msgid "Eureka : Contact (%s)"
+msgstr "Eureka : Contact (%s)"
+
+msgid ""
+"Your request has been sent to the IPS team that will answer it as soon as"
+" possible"
+msgstr ""
+"Your request has been sent to the Eureka team that will process it as "
+"soon as possible"
+
+msgid "Ideas Stats"
+msgstr "Ideas Stats"
+
+msgid "Users Stats"
+msgstr "Users Stats"
+
+#, python-format
+msgid "%(value)d (%(percentage).1f%%)"
+msgstr "%(value)d (%(percentage).1f%%)"
+
+#, python-format
+msgid "%(label)s: %(value)d (%(percentage).1f%%)"
+msgstr "%(label)s: %(value)d (%(percentage).1f%%)"
+
+msgid "Basket"
+msgstr "Basket"
+
+msgid "Others"
+msgstr "Others"
+
+msgid "Ideas count"
+msgstr "Ideas count"
+
+msgid "Connections count"
+msgstr "Connections count"
+
+msgid "week"
+msgstr "week"
+
+msgid "Ideas on alert"
+msgstr "Ideas on alert"
+
+msgid "State changes"
+msgstr "State changes"
+
+msgid "Challenge"
+msgstr "Challenge"
+
+msgid "Ideas"
+msgstr "Ideas"
+
+msgid "Consolidated"
+msgstr "Consolidated"
+
+msgid "Last 28 days"
+msgstr "Last 28 days"
+
+msgid "Last 7 days"
+msgstr "Last 7 days"
+
+#, python-format
+msgid "%s - %s - Week %s"
+msgstr "%s - %s - Week %s"
+
+#, python-format
+msgid "%s, global stats"
+msgstr "%s, global stats"
+
+#, python-format
+msgid "Global %s statistics"
+msgstr "Global %s statistics"
+
+#, python-format
+msgid "%s, stats challenge #%s"
+msgstr "%s, stats challenge #%s"
+
+#, python-format
+msgid "%s statistics for challenge #%s"
+msgstr "%s statistics for challenge #%s"
+
+#, python-format
+msgid "%s, corresp."
+msgstr "%s, corresp."
+
+#, python-format
+msgid "%s correspondences"
+msgstr "%s correspondences"
+
+msgid "Statistics on published ideas only"
+msgstr "Statistics on published ideas only"
+
+msgid "Unit"
+msgstr "Unit"
+
+msgid "Workforce"
+msgstr "Workforce"
+
+msgid "Users who have connected at least once"
+msgstr "Users who have connected at least once"
+
+msgid "IDEAS"
+msgstr "IDEAS"
+
+msgid "Users who have published at least one idea"
+msgstr "Users who have published at least one idea"
+
+msgid "VOTES"
+msgstr "VOTES"
+
+msgid "Users who have voted at least once"
+msgstr "Users who have voted at least once"
+
+msgid "COMMENTS"
+msgstr "COMMENTS"
+
+msgid "Users who have published at least one comment"
+msgstr "Users who have published at least one comment"
+
+msgid "number"
+msgstr "number"
+
+msgid "workforce %"
+msgstr "workforce %"
+
+msgid "Corporation"
+msgstr "Corporation"
+
+msgid "Direction"
+msgstr "Direction"
+
+msgid "Service"
+msgstr "Service"
+
+msgid "Site"
+msgstr "Workplace"
+
+msgid "All"
+msgstr "All"
+
+msgid "Most Liked Comments"
+msgstr "Most Liked Comments"
+
+msgid "Score"
+msgstr "Score"
+
+msgid "Comment"
+msgstr "Comment"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Idea"
+msgstr "Idea"
+
+msgid "Eureka: daily activity email"
+msgstr "Eureka: daily activity email"
+
+msgid "state"
+msgstr "State"
+
+msgid "challenge"
+msgstr "Challenge"
+
+msgid "period"
+msgstr "Period"
+
+msgid "domain"
+msgstr "Domain"
+
+#, python-format
+msgid "Comment (%d)"
+msgid_plural "Comments (%d)"
+msgstr[0] "Comment (%d)"
+msgstr[1] "Comments (%d)"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Idea added to tracking"
+msgstr "Idea added to tracking"
+
+msgid "Idea removed from tracking"
+msgstr "Idea removed from tracking"
+
+msgid "Sorry but you can't vote for this idea anymore"
+msgstr "Sorry but you can't vote for this idea anymore"
+
+msgid "Idea deleted"
+msgstr "Idea deleted"
+
+msgid "Eureka: this idea may interest you"
+msgstr "Eureka: this idea may interest you"
+
+msgid "<Your firstname>"
+msgstr "<Your firstname>"
+
+#, python-format
+msgid ""
+"Hello,\n"
+"\n"
+"Connect to Eurêka and take a look at this idea: %s\n"
+"\n"
+"Cheers, %s"
+msgstr ""
+"Hello,\n"
+"\n"
+"Just sign in with your Eureka account and have a look at this idea: %s\n"
+"\n"
+"Cheers, %s"
+
+#, python-format
+msgid "Report idea #%s as duplicated"
+msgstr "Report idea #%s as duplicated"
+
+msgid "This idea is already submitted"
+msgstr "This idea is already submitted"
+
+msgid "This idea is already carried on by a direction"
+msgstr "This idea is already carried on by a direction"
+
+msgid "Your message has been sent. Thank you for your awareness !"
+msgstr "Your message has been sent. Thank you for your awareness !"
+
+msgid "Idea id must be an integer"
+msgstr "Idea id must be an integer"
+
+msgid "No such idea"
+msgstr "No such idea"
+
+msgid "Your ideas have potential"
+msgstr "Your ideas have potential"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Origin"
+msgstr "Origin"
+
+msgid "Impact"
+msgstr "Impact"
+
+msgid "Submission date"
+msgstr "Submission date"
+
+msgid "Author name"
+msgstr "Author name"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "Votes count"
+msgstr "Votes count"
+
+msgid "Comments count"
+msgstr "Comments count"
+
+msgid "Domain"
+msgstr "Domain"
+
+msgid "State"
+msgstr "State"
+
+msgid "Url"
+msgstr "Url"
+
+msgid "Facilitator"
+msgstr "Facilitator"
+
+msgid "Developer"
+msgstr "Expert"
+
+msgid "Benefit_department"
+msgstr "Benefit department"
+
+msgid "target_date"
+msgstr "target date"
+
+msgid "goal"
+msgstr "goal"
+
+#, python-format
+msgid "Revenue %s"
+msgstr "Revenue %s"
+
+#, python-format
+msgid "Expenses %s"
+msgstr "Expenses %s"
+
+msgid "CF/MSCV"
+msgstr ""
+
+msgid "Off challenge"
+msgstr "No challenge"
+
+msgid "Last 24 h"
+msgstr "Last 24 h"
+
+msgid "Last week"
+msgstr "Last week"
+
+msgid "Last month"
+msgstr "Last month"
+
+msgid "Non-retained"
+msgstr "Non-retained"
+
+msgid "Ideas in progress"
+msgstr "Ideas in progress"
+
+msgid "Last published"
+msgstr "Last published"
+
+msgid "Progressing"
+msgstr "Progressing"
+
+msgid "Most viewed"
+msgstr "Most viewed"
+
+msgid "Launched ideas"
+msgstr "Launched ideas"
+
+msgid "Wrong login or password"
+msgstr "Wrong login or password"
+
+msgid "You have new events to browse"
+msgstr "You have new events to browse"
+
+msgid "Poll"
+msgstr "Poll"
+
+msgid "home"
+msgstr ""
+
+msgid "Go to the home page"
+msgstr "Go to the home page"
+
+msgid "news"
+msgstr ""
+
+msgid "View, comment and vote for challenge ideas"
+msgstr "View, comment and vote for challenge ideas"
+
+msgid "ideas"
+msgstr "ideas"
+
+msgid "View, comment and vote for ideas"
+msgstr "View, comment and vote for ideas"
+
+msgid "discover eurêka"
+msgstr ""
+
+msgid "gifts"
+msgstr "shop"
+
+msgid "help"
+msgstr ""
+
+msgid "contact us"
+msgstr ""
+
+msgid "Help"
+msgstr "Help"
+
+msgid "Suggestions"
+msgstr "Suggestions"
+
+msgid "Terms of use"
+msgstr "Terms of use"
+
+msgid "You must log in to perform this action"
+msgstr "You must log in to perform this action"
+
+msgid "Please change your password"
+msgstr "Please change your password"
+
+msgid "Reset my password"
+msgstr "Reset my password"
+
+msgid "Password reset failure!"
+msgstr "Password reset failure!"
+
+msgid "My Ideas"
+msgstr "My Ideas"
+
+msgid "Facilitator basket"
+msgstr "Facilitator basket"
+
+msgid "Developer basket"
+msgstr "Expert basket"
+
+msgid "DSIG basket"
+msgstr "Administrator basket"
+
+#, python-format
+msgid "Search results for %s"
+msgstr "Search results for %s"
+
+msgid "All challenges"
+msgstr "All challenges"
+
+msgid "No content yet"
+msgstr "No content yet"
+
+msgid "A password reset email has been sent to your contact email address."
+msgstr "A password reset email has been sent to your contact email address."
+
+msgid "This user does not exist"
+msgstr "This user does not exist"
+
+msgid "This user account is disabled"
+msgstr "This user account is deactivated"
+
+msgid "Search ideas"
+msgstr "Search ideas"
+
+msgid "search_ideas"
+msgstr "Ideas"
+
+msgid "Profils"
+msgstr "Profiles"
+
+msgid "Your suggestion has been sent to the IPS team"
+msgstr "Your suggestion has been sent to the Eureka team"
+
+msgid "All suggestions"
+msgstr "All suggestions"
+
+msgid "Show all suggestions"
+msgstr "Show all suggestions"
+
+msgid "Processed and deployed"
+msgstr "Processed and deployed"
+
+msgid "Show processed and deployed suggestions"
+msgstr "Show processed and deployed suggestions"
+
+msgid "In progress"
+msgstr "In progress"
+
+msgid "Show suggestions in progress"
+msgstr "Show suggestions in process"
+
+msgid "Rejected"
+msgstr "Rejected"
+
+msgid "Show the rejected suggestions"
+msgstr "Show the rejected suggestions"
+
+msgid "Event removed"
+msgstr "Event removed"
+
+msgid "My Profile"
+msgstr "My Profile"
+
+msgid "Her Profile"
+msgstr "Profile"
+
+msgid "My Settings"
+msgstr "My Settings"
+
+msgid "Her Settings"
+msgstr "Her Settings"
+
+msgid "My Tracked Ideas"
+msgstr "My Tracked Ideas"
+
+msgid "Her Tracked Ideas"
+msgstr "Her Tracked Ideas"
+
+msgid "Her Ideas"
+msgstr "Ideas"
+
+msgid "My Points"
+msgstr "My Points"
+
+msgid "Her Points"
+msgstr "Points"
+
+msgid "Points deleted"
+msgstr "Points deleted"
+
+msgid "Facilitator changed"
+msgstr "Facilitator changed"
+
+msgid "Avatar changed"
+msgstr "Picture changed"
+
+msgid "The password confirmation is different from the password"
+msgstr "The password confirmation is different from the password"
+
+msgid "Your password has been changed"
+msgstr "Your password has been changed"
+
+msgid "Your profile has been changed"
+msgstr "Your profile has been changed"
+
+msgid "Users"
+msgstr "Users"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "First name"
+msgstr "First name"
+
+msgid "Last name"
+msgstr "Last name"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Office phone"
+msgstr "Office phone"
+
+msgid "Mobile phone"
+msgstr "Mobile phone"
+
+msgid "Acquired points"
+msgstr "Acquired points"
+
+msgid "Spent points"
+msgstr "Spent points"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Incorporated"
+msgstr "Group"
+
+msgid "Skills"
+msgstr "Job and skills"
+
+msgid "Business Unit"
+msgstr "Business"
+
+msgid "After my appraisal i can propose two kinds of suggestion:"
+msgstr "After my appraisal i can propose two kinds of suggestion:"
+
+msgid "My actions"
+msgstr "My actions"
+
+msgid "My evaluation"
+msgstr "My expert evaluation"
+
+msgid "My recommendation"
+msgstr "My recommendation"
+
+msgid "Context changed"
+msgstr "This idea has been enhanced"
+
+msgid "Expert added"
+msgstr "Expert opinion added"
+
+msgid "Benefit changed"
+msgstr "Profits assessed"
+
+msgid "Potential changed"
+msgstr "Potential assessed"
+
+msgid "evaluation changed"
+msgstr ""
+
+msgid "Add an image"
+msgstr "Add an image"
+
+msgid "No image found."
+msgstr "No image found."
+
+msgid "No image in the gallery yet."
+msgstr "No image in the gallery yet."
+
+msgid "Image:"
+msgstr "Image:"
+
+msgid "Tags:"
+msgstr "Tags:"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Previous"
+msgstr "Previous"
+
+msgid "Next"
+msgstr "Next"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Play the video"
+msgstr "Play the video"
+
+msgid "Too many results, please precise your query"
+msgstr "Too many results, please precise your query"
+
+msgid "Show the calendar"
+msgstr "Show the calendar"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Loading, please wait..."
+msgstr "Loading, please wait..."
+
+msgid ""
+"Spin Button with value {VALUE}. Use Control Shift Up Arrow and Control "
+"Shift Down arrow keys to increase or decrease the value."
+msgstr ""
+"Spin Button with value {VALUE}. Use Control Shift Up Arrow and Control "
+"Shift Down arrow keys to increase or decrease the value."
+
+msgid "Click to increase the value of this input"
+msgstr "Click to increase the value of this input"
+
+msgid "Click to decrease the value of this input"
+msgstr "Click to decrease the value of this input"
+
+msgid "Collapse"
+msgstr "Fold"
+
+msgid "Expand"
+msgstr "Unfold"
+
+msgid ""
+"This text field can contain stylized text and graphics. To cycle through "
+"all formatting options, use the keyboard shortcut Control + Shift + T to "
+"place focus on the toolbar and navigate between option heading names. "
+"<h4>Common formatting keyboard shortcuts:</h4><ul><li>Control Shift B "
+"sets text to bold</li> <li>Control Shift I sets text to italic</li> "
+"<li>Control Shift U underlines text</li> <li>Control Shift [ aligns text "
+"left</li> <li>Control Shift | centers text</li> <li>Control Shift ] "
+"aligns text right</li> <li>Control Shift L adds an HTML link</li> <li>To "
+"exit this text editor use the keyboard shortcut Control + Shift + "
+"ESC.</li></ul>"
+msgstr ""
+"This text field can contain stylized text and graphics. To cycle through "
+"all formatting options, use the keyboard shortcut Control + Shift + T to "
+"place focus on the toolbar and navigate between option heading names. "
+"<h4>Common formatting keyboard shortcuts:</h4><ul><li>Control Shift B "
+"sets text to bold</li> <li>Control Shift I sets text to italic</li> "
+"<li>Control Shift U underlines text</li> <li>Control Shift [ aligns text "
+"left</li> <li>Control Shift | centers text</li> <li>Control Shift ] "
+"aligns text right</li> <li>Control Shift L adds an HTML link</li> <li>To "
+"exit this text editor use the keyboard shortcut Control + Shift + "
+"ESC.</li></ul>"
+
+msgid "You have left the Rich Text Editor."
+msgstr "You have left the Rich Text Editor."
+
+msgid "Rich Text Area."
+msgstr "Rich text editor"
+
+msgid "Close Window"
+msgstr "Close Window"
+
+msgid "To close this window use the Control + Shift + W key"
+msgstr "To close this window use the Control + Shift + W key"
+
+msgid "Image URL Here"
+msgstr "Image URL Here"
+
+msgid "Image URL"
+msgstr "Image URL"
+
+msgid "Image Options"
+msgstr "Image Options"
+
+msgid "Size"
+msgstr "Size"
+
+msgid "Original Size"
+msgstr "Original Size"
+
+msgid "Note:"
+msgstr "Note:"
+
+msgid ""
+"To move this image just highlight it, cut, and paste where ever you'd "
+"like."
+msgstr ""
+"To move this image just highlight it, cut, and paste where ever you'd "
+"like."
+
+msgid "Padding"
+msgstr "Padding"
+
+msgid "Border"
+msgstr "Border"
+
+msgid "Border Size"
+msgstr "Border Size"
+
+msgid "Border Type"
+msgstr "Border Type"
+
+msgid "Solid"
+msgstr "Solid"
+
+msgid "Dashed"
+msgstr "Dashed"
+
+msgid "Dotted"
+msgstr "Dotted"
+
+msgid "Border Color"
+msgstr "Border Color"
+
+msgid "Text Flow"
+msgstr "Text Flow"
+
+msgid "Left"
+msgstr "Left"
+
+msgid "Inline"
+msgstr "Inline"
+
+msgid "Block"
+msgstr "Block"
+
+msgid "Right"
+msgstr "Right"
+
+msgid "Link URL"
+msgstr "Link URL"
+
+msgid "Link Options"
+msgstr "Link Options"
+
+msgid "Remove link from text"
+msgstr "Remove link from text"
+
+msgid "Open in a new window."
+msgstr "Open in a new window."
+
+msgid ""
+"This image/link points to a file on your computer and will not be "
+"accessible to others on the internet."
+msgstr ""
+"This image/link points to a file on your computer and will not be "
+"accessible to others on the internet."
+
+msgid "Paragraph style"
+msgstr "Paragraph style"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Heading 1"
+msgstr "Heading 1"
+
+msgid "Heading 2"
+msgstr "Heading 2"
+
+msgid "Heading 3"
+msgstr "Heading 3"
+
+msgid "Heading 4"
+msgstr "Heading 4"
+
+msgid "Heading 5"
+msgstr "Heading 5"
+
+msgid "Heading 6"
+msgstr "Heading 6"
+
+msgid "Text Style"
+msgstr "Text Style"
+
+msgid "Bold CTRL + SHIFT + B"
+msgstr "Bold CTRL + SHIFT + B"
+
+msgid "Italic CTRL + SHIFT + I"
+msgstr "Italic CTRL + SHIFT + I"
+
+msgid "Text Color"
+msgstr "Text Color"
+
+msgid "Remove the formatting"
+msgstr "Remove the formatting"
+
+msgid "Text Alignment"
+msgstr "Text Alignment"
+
+msgid "Left CTRL + SHIFT + ["
+msgstr "Left CTRL + SHIFT + ["
+
+msgid "Center CTRL + SHIFT + |"
+msgstr "Center CTRL + SHIFT + |"
+
+msgid "Right CTRL + SHIFT + ]"
+msgstr "Right CTRL + SHIFT + ]"
+
+msgid "Justify"
+msgstr "Justify"
+
+msgid "Indentation and lists"
+msgstr "Indentation and lists"
+
+msgid "Indent"
+msgstr "Indent"
+
+msgid "Outdent"
+msgstr "Outdent"
+
+msgid "Create an Unordered List"
+msgstr "Create an Unordered List"
+
+msgid "Create an Ordered List"
+msgstr "Create an Ordered List"
+
+msgid "Insert Item"
+msgstr "Insert Item"
+
+msgid "Link CTRL + SHIFT + L"
+msgstr "Link CTRL + SHIFT + L"
+
+msgid "Image"
+msgstr "Image"
+
+msgid ""
+"You must whitelist this site from your popup blocker in order to use this"
+" feature."
+msgstr ""
+"You must whitelist this site from your popup blocker in order to use this"
+" feature."
+
+msgid "characters"
+msgstr "characters"
+
+msgid "Read more"
+msgstr "Read more"
+
+msgid "Read less"
+msgstr "Read less"
+
+msgid "See all news"
+msgstr "See all news"
+
+msgid "See all ongoing projects"
+msgstr "See all ongoing projects"
+
+msgid "See all headlines"
+msgstr "See all headlines"
+
+msgid "Filter by :"
+msgstr "Filter by :"
+
+msgid "Edit the article"
+msgstr "Edit the article"
+
+msgid "Title:"
+msgstr "Title:"
+
+msgid "Type:"
+msgstr "Type:"
+
+msgid "Topic:"
+msgstr ""
+
+msgid "Thumbnail:"
+msgstr "Thumbnail:"
+
+msgid "Desktop content:"
+msgstr "Desktop content:"
+
+msgid "Mobile content:"
+msgstr "Mobile content:"
+
+#, python-format
+msgid "You have %d ideas in state "
+msgstr "You have %d ideas in state "
+
+#, python-format
+msgid "You have %d ideas in state AUTHOR_NORMALIZE_STATE"
+msgstr "You have %d idea(s) to enhance"
+
+#, python-format
+msgid "You have %d ideas in state DRAFT_STATE"
+msgstr "You have %d idea(s) in the draft state"
+
+#, python-format
+msgid "You have %d ideas in state DSIG_BASKET_STATE"
+msgstr ""
+
+#, python-format
+msgid "You have %d ideas in state PROTOTYPE_REFUSED_STATE"
+msgstr "You have %d idea(s) whose pilot project is refused"
+
+#, python-format
+msgid "You have %d ideas in state APPROVAL_REFUSED_STATE"
+msgstr "You have %d idea(s) whose recommendation is refused"
+
+#, python-format
+msgid "You have %d ideas in state DI_APPROVED_STATE"
+msgstr "You have %d approved idea(s)"
+
+#, python-format
+msgid "You have %d ideas in state PROTOTYPE_STATE"
+msgstr "You have %d idea(s) set in pilot project"
+
+#, python-format
+msgid "You have %d ideas in state DI_REFUSED_STATE"
+msgstr "You have %d idea(s) not retained by the expert"
+
+#, python-format
+msgid "You have %d ideas in state EXTENDED_STATE"
+msgstr "You have %d idea(s) deployed"
+
+#, python-format
+msgid "You have %d ideas in state RETURNED_BY_DI_STATE"
+msgstr "You have %d idea(s) that require further information"
+
+#, python-format
+msgid "You have %d ideas in state SELECT_REFUSED_STATE"
+msgstr "You have %d idea(s) whose selection is refused"
+
+#, python-format
+msgid "You have %d ideas in state FI_REFUSED_STATE"
+msgstr "You have %d idea(s) not retained by your facilitator"
+
+#, python-format
+msgid "You have %d ideas in state PROJECT_STATE"
+msgstr "You have %d idea(s) in implementation"
+
+#, python-format
+msgid "You have %d ideas in state PROJECT_REFUSED_STATE"
+msgstr "You have %d idea(s) whose implementation is refused"
+
+#, python-format
+msgid "You have %d ideas in state SELECTED_STATE"
+msgstr ""
+
+#, python-format
+msgid "You have %d ideas in state DI_APPRAISAL_STATE"
+msgstr "You have %d idea(s) to be approved by the expert"
+
+#, python-format
+msgid "You have %d ideas in state FI_NORMALIZE_STATE"
+msgstr "You have %d idea(s) to be processed by your facilitator"
+
+#, python-format
+msgid "You have %d ideas in state INITIAL_STATE"
+msgstr "You have %d idea(s) in the initial state"
+
+#, python-format
+msgid "You have %d ideas to review"
+msgstr "You have %d ideas to process"
+
+#, python-format
+msgid "You have sent back %d ideas to innovators"
+msgstr "You have sent back %d ideas to users"
+
+#, python-format
+msgid "You have sent %d ideas to developers"
+msgstr "You have sent %d ideas to experts"
+
+#, python-format
+msgid "You have refused %d ideas"
+msgstr "You have refused %d ideas"
+
+#, python-format
+msgid "You have sent %d ideas to DSIG"
+msgstr "You have sent %d ideas to the administrator"
+
+#, python-format
+msgid "You have approved %d ideas"
+msgstr "You have recommended %d ideas"
+
+#, python-format
+msgid "You have %d selected ideas"
+msgstr "You have %d selected ideas"
+
+#, python-format
+msgid "You have %d projected ideas"
+msgstr "You have %d projected ideas"
+
+#, python-format
+msgid "You have %d prototyped ideas"
+msgstr "You have %d ideas in pilot project"
+
+#, python-format
+msgid "You have %d extended ideas"
+msgstr "You have %d deployed ideas"
+
+msgid "No submitted idea"
+msgstr "No submitted idea"
+
+msgid "Comments"
+msgstr "Comments"
+
+msgid "Votes"
+msgstr "Votes"
+
+msgid "No idea in basket"
+msgstr "No idea in basket"
+
+#, python-format
+msgid "Basket of %s"
+msgstr "Basket of %s"
+
+msgid "from"
+msgstr "from"
+
+#, python-format
+msgid "from %(start_date)s"
+msgstr "from %(start_date)s"
+
+#, python-format
+msgid "to %(end_date)s"
+msgstr "to %(end_date)s"
+
+msgid "Outcome of the challenge"
+msgstr "Challenge results"
+
+msgid "View challenge ideas"
+msgstr "View challenge ideas"
+
+msgid "Read the whole challenge"
+msgstr "Read the challenge description"
+
+msgid "Edit the challenge"
+msgstr "Edit the challenge"
+
+msgid "Short title"
+msgstr "Short title"
+
+msgid "Created by (email)"
+msgstr "Created by (email)"
+
+msgid "Organization"
+msgstr "Organization"
+
+msgid "Challenge's developers (emails)"
+msgstr "Challenge's experts (emails)"
+
+msgid "Select a date"
+msgstr "Select a date"
+
+msgid "Start date (included)"
+msgstr "Start date (included)"
+
+msgid "End date (included)"
+msgstr "End date (included)"
+
+msgid "Summary"
+msgstr "Summary"
+
+msgid "Desktop Description"
+msgstr "Desktop Description"
+
+msgid "Mobile Description"
+msgstr "Mobile Description"
+
+msgid "Outcome"
+msgstr "Results"
+
+msgid "Users finding this comment relevant"
+msgstr "Users finding this comment relevant"
+
+#, python-format
+msgid "%s people find this comment relevant"
+msgstr "%s people find this comment relevant"
+
+msgid "One people find this comment relevant"
+msgstr "One people find this comment relevant"
+
+msgid "From"
+msgstr "From"
+
+msgid "on"
+msgstr "on"
+
+msgid "Delete this comment"
+msgstr "Delete this comment"
+
+msgid "Moderate this comment"
+msgstr "Report this comment"
+
+msgid "Cancel moderation"
+msgstr "Cancel report"
+
+msgid "I don't find this comment relevant anymore"
+msgstr "I don't find this comment relevant anymore"
+
+msgid "I find this comment relevant"
+msgstr "I find this comment relevant"
+
+msgid "Fill this form to delete the comment (max. 150 characters)"
+msgstr "Fill this form to delete the comment (max. 150 characters)"
+
+msgid "Reason:"
+msgstr "Reason:"
+
+msgid "Post your comment"
+msgstr "Post your comment"
+
+#, python-format
+msgid "Attached file (%d KB max):"
+msgstr "Attached file (%d KB max):"
+
+msgid "post"
+msgstr "Post"
+
+msgid "No comment"
+msgstr "No comment"
+
+msgid "Contact form"
+msgstr "Contact form"
+
+msgid ""
+"A problem? A question? The IPS team is listening you and will answer your"
+" questions as soon as possible"
+msgstr ""
+"Any problem? Any question? Fill in the form and the Eureka team will "
+"reply as soon as possible"
+
+msgid "Your email address"
+msgstr "Your email address"
+
+msgid "Subject"
+msgstr "Subject"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Submit"
+msgstr "Submit"
+
+msgid "Connections and ideas posted by day on the last 2 weeks"
+msgstr "Connections and ideas posted per day on the last 2 weeks"
+
+msgid "Connections and ideas posted by week on the last 2 months"
+msgstr "Connections and ideas posted per week on the last 2 months"
+
+msgid "Ideas shares by state and by domain"
+msgstr "Ideas shares per state and per domain"
+
+msgid "Users by entity"
+msgstr "Users who have already used Eureka"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Ratio"
+msgstr "Ratio"
+
+msgid "Totals"
+msgstr "Totals"
+
+msgid "Votes by entity"
+msgstr "Users who have already voted"
+
+msgid "Voters"
+msgstr "Voters"
+
+msgid "Status by entity"
+msgstr "Users' status"
+
+msgid "Back to the dashboard"
+msgstr "Back to the dashboard"
+
+msgid "Active %"
+msgstr "Active %"
+
+#, python-format
+msgid "%s - The %ss"
+msgstr "%s - The %ss"
+
+msgid "Comments by entity"
+msgstr "Users who have already commented"
+
+msgid "Commentators"
+msgstr "Commentators"
+
+msgid "Ideas on alert and to be processed"
+msgstr "Ideas on alert and to be processed"
+
+msgid "Ideas' progress"
+msgstr "Ideas' progress"
+
+msgid ""
+"The values indicated for each domain correspond to the sum of the "
+"published and unpublished ideas"
+msgstr ""
+"The values indicated for each domain correspond to the sum of the "
+"published and unpublished ideas"
+
+msgid "Ideas by domain"
+msgstr "Ideas by domain"
+
+msgid "Ideas by unit and by challenge"
+msgstr "Ideas by unit and by challenge"
+
+msgid "Submitters"
+msgstr "Submitters"
+
+msgid "Submitters percentage"
+msgstr "Submitters percentage"
+
+msgid "Ideas by success state"
+msgstr "Ideas per state of the workflow (except not retained ideas)"
+
+msgid "Ideas by refused state"
+msgstr "Ideas per not retained state"
+
+msgid "To process"
+msgstr "Ideas to process"
+
+msgid "Ideas by developer"
+msgstr "Number of ideas per expert"
+
+#, python-format
+msgid "In red, facilitators that have ideas to process older than %d days."
+msgstr "In red, facilitators that have ideas to process older than %d days."
+
+msgid "Ideas by facilitator"
+msgstr "Ideas per facilitator"
+
+msgid "Show the on alert ideas"
+msgstr "Show the ideas on alert"
+
+msgid "Show the ideas to process"
+msgstr "Show the ideas to process"
+
+msgid "Ideas to process"
+msgstr "Ideas to process"
+
+msgid "Select the period:"
+msgstr "Select the period:"
+
+msgid "Since a date:"
+msgstr "Since a date:"
+
+msgid "Go"
+msgstr "Go"
+
+msgid "Export to Excel"
+msgstr "Export to Excel"
+
+msgid "Export all filtered ideas"
+msgstr "Export all filtered ideas"
+
+#, python-format
+msgid "State changed on %s"
+msgstr "State changed on %s"
+
+msgid "No idea found"
+msgstr "No idea found"
+
+msgid "Gallery"
+msgstr "Gallery"
+
+msgid "Please fill in idea number"
+msgstr "Please fill in idea number"
+
+msgid "Send email"
+msgstr "Send email"
+
+msgid "Please pick a direction"
+msgstr "Please pick a direction"
+
+msgid "Can you tell us more ?"
+msgstr "Can you tell us more ?"
+
+#, python-format
+msgid "#%d"
+msgstr "#%d"
+
+#, python-format
+msgid "N°%d posted at %s"
+msgstr "N°%d posted at %s"
+
+#, python-format
+msgid "N°%d"
+msgstr "N°%d"
+
+#, python-format
+msgid "Challenge: %s"
+msgstr "Challenge: %s"
+
+msgid "I untrack this idea"
+msgstr "Untrack this idea"
+
+msgid "I track this idea"
+msgstr "Track this idea"
+
+msgid "View the idea, comment, vote for it"
+msgstr "View the idea, comment, vote for it"
+
+msgid "You are not allowed to view this idea"
+msgstr "You are not allowed to view this idea"
+
+msgid "submitted on"
+msgstr "submitted on"
+
+msgid "Impact/benefit for the corporation"
+msgstr "Impacts/benefits for the company"
+
+msgid "Implementation"
+msgstr "Means of implementation"
+
+msgid "Attachments contributed in comments"
+msgstr "Attachments in comments"
+
+#, python-format
+msgid "Alert on %s"
+msgstr "Alert on %s"
+
+msgid "Edit the alert setting"
+msgstr "Edit the alert setting"
+
+msgid "Confirm delete?"
+msgstr "Confirm delete?"
+
+msgid "This idea will be deleted permanently: are you sure?"
+msgstr "This idea will be deleted permanently: are you sure?"
+
+msgid "I delete the idea"
+msgstr "Delete the idea"
+
+msgid "I report a duplicate idea"
+msgstr "I report a duplicate idea"
+
+msgid "I Edit"
+msgstr "Edit the idea"
+
+msgid "I Develop"
+msgstr "Enhance the idea"
+
+msgid "Share with a friend"
+msgstr "Share with a friend"
+
+msgid "I comment"
+msgstr "Comment"
+
+msgid "I vote!"
+msgstr "Vote!"
+
+msgid "Share the idea with friends"
+msgstr "Share the idea with friends"
+
+msgid "Recipients"
+msgstr "Recipients"
+
+msgid "If there's more than one recipient, separate them with a comma"
+msgstr "If there's more than one recipient, separate them with a comma"
+
+msgid "Send the email"
+msgstr "Send the email"
+
+msgid "Publication date"
+msgstr "Date of publication"
+
+msgid "Sort from oldest to latest"
+msgstr "Sort from oldest to latest"
+
+msgid "Sort from latest to oldest"
+msgstr "Sort from latest to oldest"
+
+msgid "Recommendation date"
+msgstr "Recommendation date"
+
+msgid "Sort ascendingly"
+msgstr "Sort ascendingly"
+
+msgid "Sort descendingly"
+msgstr "Sort descendingly"
+
+msgid "Progressing idea"
+msgstr "Progressing idea"
+
+#, python-format
+msgid "%(count)d follower"
+msgid_plural "%(count)d followers"
+msgstr[0] "%(count)d follower"
+msgstr[1] "%(count)d followers"
+
+msgid "No follower"
+msgstr "No follower"
+
+#, python-format
+msgid "%(count)d comment"
+msgid_plural "%(count)d comments"
+msgstr[0] "%(count)d comment"
+msgstr[1] "%(count)d comments"
+
+#, python-format
+msgid "%s ideas found"
+msgstr "%s ideas found"
+
+msgid "Ideas per page:"
+msgstr "Ideas per page:"
+
+#, python-format
+msgid "%d found idea"
+msgid_plural "%d found ideas"
+msgstr[0] "%d found idea"
+msgstr[1] "%d found ideas"
+
+msgid "Click here to fill the form"
+msgstr "Click here to fill the form"
+
+msgid "Submit a new idea"
+msgstr "Submit a new idea"
+
+msgid "Submit the idea"
+msgstr "Submit the idea"
+
+msgid "Save draft"
+msgstr "Save draft"
+
+msgid "My idea"
+msgstr "My idea"
+
+msgid "Delete the idea"
+msgstr "Delete the idea"
+
+msgid "You have an idea?"
+msgstr "Do you have an idea?"
+
+msgid ""
+" Did you checked it has already been expressed? Perform a quick search to"
+" make it certain."
+msgstr ""
+" Did you check if this idea is really brand new? Please do a quick search"
+" to make sure that it is not already published."
+
+msgid "Find the good arguments to convince!"
+msgstr "Find the best arguments to convince!"
+
+msgid "The more detailed and precisely described your idea is"
+msgstr "The more detailed and clear your idea is"
+
+msgid ""
+" in terms of benefits for the company, the more chance it has to be "
+"selected by the idea developers."
+msgstr ""
+" in terms of profits for the company, the most likely the expert  will "
+"recommend it."
+
+msgid "Example questions to ask yourself:"
+msgstr "For instance, think about:"
+
+msgid "Why"
+msgstr "What"
+
+msgid ""
+" has the company an interest in implementing it? (impacts, benefits, "
+"gains)"
+msgstr ""
+" are the profits the Group may take from implementing your idea ? "
+"(impacts, benefits, gains)"
+
+msgid "Which means"
+msgstr "What kind of"
+
+msgid "/investments are necessary?"
+msgstr " resources/investments are necessary ? And how much ?"
+
+msgid "How"
+msgstr "How"
+
+msgid " can we implement it?"
+msgstr " can we implement it?"
+
+msgid "Is there some "
+msgstr "Could you give"
+
+msgid "examples"
+msgstr " any existing cases"
+
+msgid "? (sites, firms, contractors, articles, …)"
+msgstr "? (websites, competitors, contractors, press articles, …)"
+
+msgid "Mandatory fields"
+msgstr "Mandatory fields"
+
+msgid "Indicate the title of your idea (e.g. Recycling)"
+msgstr "Indicate the title of your idea (ex: Recycling)"
+
+msgid ""
+"Describe how your idea can make the company progress. Propose some means "
+"for implementing it."
+msgstr ""
+"Describe how your idea would allow greater progress for the Group. Show "
+"us the way and means to implement it."
+
+msgid "Please choose a domain"
+msgstr "Please choose a domain"
+
+msgid "Choose a domain in the list above"
+msgstr "Choose a domain in the list above"
+
+msgid "Describe what are the benefits of implementing your idea"
+msgstr "Describe the benefits from implementing your idea"
+
+msgid "Keywords"
+msgstr "Keywords"
+
+msgid ""
+"Write down the tags that describe your idea, separated by commas (e.g. "
+"innovation, communication, computing)"
+msgstr ""
+"Write down the tags that describe your idea, separated by commas (e.g. "
+"innovation, communication, computing)"
+
+msgid "Choose a challenge in the list above"
+msgstr "Choose a challenge in the list above"
+
+msgid "Optional fields"
+msgstr "Optional fields"
+
+msgid ""
+"Describe how this idea came up to you (e.g. competitors propose this "
+"product, seen on the internet, recurring problem, …)"
+msgstr ""
+"Describe how this idea came up to you (e.g. competitors propose this \"\n"
+"\"product, link to an existing website, describe a recurring problem, …)"
+
+msgid "Describe how to implement this idea"
+msgstr "Describe how to implement this idea"
+
+msgid "First co-author"
+msgstr "First co-author"
+
+msgid "Second co-author"
+msgstr "Second co-author"
+
+msgid "Third co-author"
+msgstr "Third co-author"
+
+msgid "Add up to 3 co-authors"
+msgstr "Add up to 3 co-authors"
+
+msgid "First attached file"
+msgstr "First attached file"
+
+msgid "Second attached file"
+msgstr "Second attached file"
+
+msgid "Third attached file"
+msgstr "Third attached file"
+
+#, python-format
+msgid ""
+"Add up to 3 attached files to illustrate your idea (%d KB max per "
+"attachment)"
+msgstr ""
+"Add up to 3 attached files to illustrate your idea (%d KB max per "
+"attachment)"
+
+msgid ""
+"I want to hide my name: it will not be visible to my innovation "
+"facilitator. It will be visible to everybody when my idea is published"
+msgstr ""
+"Hide my name: my facilitator won't be able to see itOnce published, my "
+"name won't be hidden anymore,"
+
+msgid "My idea has already been implemented locally"
+msgstr "My idea has already been implemented locally"
+
+msgid "Enter you login: first letter of your firstname + your name (e.g. jdoe)"
+msgstr "Enter you login: first letter of your firstname + your name (e.g. jdoe)"
+
+msgid ""
+"Enter your password: on first connection, enter the one you received by "
+"email"
+msgstr ""
+"Enter your password: on first connection, enter the one you received by "
+"email"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Forgot your password?"
+msgstr "Forgot your password?"
+
+msgid "Connect"
+msgstr "Log in"
+
+msgid "First connection?"
+msgstr "First connection?"
+
+msgid "Enter the temporary password that have been sent to you by email"
+msgstr "Enter the temporary password that have been sent to you by email"
+
+msgid "Connection"
+msgstr "Connection"
+
+msgid "Please login to answer poll"
+msgstr "Please login to answer poll"
+
+msgid "See results"
+msgstr "Vote and see results"
+
+msgid "Vote Total"
+msgstr "Vote Total"
+
+msgid "voter"
+msgstr "vote"
+
+msgid ""
+"The poll is currently enabled or/and has votes: are you sure you want to "
+"edit this poll? (some votes may be lost)"
+msgstr ""
+"The poll is currently enabled or/and has votes: are you sure you want to "
+"edit this poll? (some votes may be lost)"
+
+msgid "Edit the poll"
+msgstr "Edit the poll"
+
+msgid "Question"
+msgstr "Question"
+
+#, python-format
+msgid "Choice %d"
+msgstr "Choice %d"
+
+msgid "Multiple choice"
+msgstr "Multiple choice"
+
+msgid ""
+"To reset your password, please enter your login. You will then receive an"
+" email that contains a link to reset your password."
+msgstr ""
+"To reset your password, please enter your login. You will then receive an"
+" email that contains a link to reset your password."
+
+msgid ""
+"Password reset failure! The token received is either expired or invalid. "
+"Please try again."
+msgstr ""
+"Password reset failure! The token received is either expired or invalid. "
+"Please try again."
+
+msgid "An error happened, please accept our apologies."
+msgstr "An error happened, please accept our apologies."
+
+msgid "Click"
+msgstr "Click"
+
+#, python-format
+msgid "to go back to the %s home page"
+msgstr "to go back to the %s home page"
+
+msgid "View or suggest improvements"
+msgstr "View or suggest improvements"
+
+msgid "Describe your improvement request"
+msgstr "Describe your improvement request"
+
+msgid ""
+"You have ideas to help us improve Eureka? Don't hesitate, please tell us "
+"the improvements that you want to see in the application"
+msgstr ""
+"Any idea to help us improve Eureka? Don't hesitate, please send us your "
+"improvements and features suggestions."
+
+msgid "Domain:"
+msgstr "Domain:"
+
+msgid "Proposal:"
+msgstr "Proposal:"
+
+msgid "I send my suggestion"
+msgstr "I send my suggestion"
+
+msgid "Show the whole suggestion"
+msgstr "Show the whole suggestion"
+
+msgid "Hide the whole suggestion"
+msgstr "Hide the whole suggestion"
+
+msgid "Suggestion processed and deployed"
+msgstr "Suggestion processed and deployed"
+
+msgid "Suggestion in progress"
+msgstr "Suggestion in process"
+
+msgid "Suggestion rejected"
+msgstr "Suggestion rejected"
+
+msgid "at"
+msgstr "at"
+
+msgid "Hide"
+msgstr "Hide"
+
+msgid "Show"
+msgstr "Show"
+
+msgid "Hide the suggestion"
+msgstr "Masquer la suggestion"
+
+msgid "Show the suggestion"
+msgstr "Show the suggestion"
+
+msgid "Mark as rejected"
+msgstr "Mark as rejected"
+
+msgid "Mark as in progress"
+msgstr "Mark as in process"
+
+msgid "Mark as processed"
+msgstr "Mark as processed"
+
+msgid "List of the improvements suggested and their last processing status"
+msgstr "List of the improvements suggested and their processing status"
+
+msgid "Suggest improvements"
+msgstr "Suggest improvements"
+
+msgid "Propose site or application improvements"
+msgstr "Make proposals for improving the site or program"
+
+#, python-format
+msgid "%d points"
+msgstr "%d points"
+
+msgid "New password"
+msgstr "New password"
+
+msgid "Enter your new password"
+msgstr "Enter your new password"
+
+msgid "Password confirmation"
+msgstr "New password saved"
+
+msgid "Confirm your new password"
+msgstr "Confirm your new password"
+
+msgid "Change your password"
+msgstr "Change your password"
+
+msgid "Select a photo from a file"
+msgstr "Select an image file on your computer"
+
+msgid "Change your photo"
+msgstr "Change your photo"
+
+msgid "My facilitator:"
+msgstr "My facilitator:"
+
+msgid "Her facilitator:"
+msgstr "Her facilitator:"
+
+msgid "Choose a facilitator"
+msgstr "Choose a facilitator"
+
+msgid "Change"
+msgstr "Change"
+
+msgid "Expert's Business Area"
+msgstr "Expert's Business Area"
+
+msgid "My speciality"
+msgstr "My speciality areas"
+
+msgid "Who am I?"
+msgstr "Who am I?"
+
+msgid ""
+"List your skills, knowledge, learning, know-how, … then submit your "
+"profile"
+msgstr ""
+"Tell us more about your current job, your skills, … then submit your "
+"profile"
+
+msgid "Expertises"
+msgstr "Expertises"
+
+msgid "Tell us about your expertises, … then submit your profile"
+msgstr "Tell us more about your expertise, … then submit your profile"
+
+msgid "Hobbies"
+msgstr "Hobbies"
+
+msgid ""
+"Describe your hobbies, passions outside the company, … then submit your "
+"profile"
+msgstr "Describe your hobbies and passions, … then submit your profile"
+
+msgid "Submit the profile"
+msgstr "Submit the profile"
+
+msgid "Show progressing ideas"
+msgstr "Show progressing ideas"
+
+msgid "Show tracked ideas"
+msgstr "Show tracked ideas"
+
+msgid "Show challenges published ideas"
+msgstr "Show challenges published ideas"
+
+msgid "Show domain ideas"
+msgstr "Show domain ideas"
+
+msgid "Keyword filter"
+msgstr "Filter by keyword"
+
+msgid "User filter"
+msgstr "Filter by users"
+
+msgid "If there's more than one user, separate them with a comma"
+msgstr "If there's more than one user, separate them with a comma"
+
+msgid "Delivery frequency"
+msgstr "Delivery frequency"
+
+msgid "Immediately"
+msgstr "Immediately"
+
+msgid "Daily"
+msgstr "Daily"
+
+msgid "Home Settings"
+msgstr "Home Settings"
+
+msgid "Mail Settings"
+msgstr "Mail Settings"
+
+msgid "Edit password"
+msgstr "Edit password"
+
+msgid "No user found"
+msgstr "No user found"
+
+msgid "Photo"
+msgstr "Photo"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Status (Points)"
+msgstr "Status (Points)"
+
+#, python-format
+msgid "%s users found"
+msgstr "%s users found"
+
+msgid "Users per page"
+msgstr "Users per page"
+
+msgid "Export all users"
+msgstr "Export all users"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Facilitator: "
+msgstr "Facilitator: "
+
+msgid "No facilitator associated"
+msgstr "No facilitator associated"
+
+msgid "My Timeline"
+msgstr "My Timeline"
+
+msgid "Her Timeline"
+msgstr "Her Timeline"
+
+#, python-format
+msgid "%s follows idea"
+msgstr "%s follows idea"
+
+#, python-format
+msgid "%s follows"
+msgstr "%s follows"
+
+msgid "No event in timeline"
+msgstr "No event in timeline"
+
+msgid "Latest events"
+msgstr "Latest events"
+
+msgid "Mark everything as read"
+msgstr "Mark everything as read"
+
+msgid "Remove the event"
+msgstr "Remove the event"
+
+#, python-format
+msgid "New comment for the idea %s"
+msgstr "New comment for the idea %s"
+
+msgid "Remove tracking"
+msgstr "Remove tracking"
+
+msgid "View the idea"
+msgstr "View the idea"
+
+msgid "You do not have any point yet."
+msgstr "You do not have any point yet."
+
+#, python-format
+msgid "Available points: %d"
+msgstr "Available points: %d"
+
+#, python-format
+msgid "Acquired points: %d"
+msgstr "Acquired points: %d"
+
+#, python-format
+msgid "Spent points: %d"
+msgstr "Spent points: %d"
+
+msgid "Reason"
+msgstr "Reason"
+
+msgid "Deleted comment"
+msgstr "Deleted comment"
+
+msgid "Added comment"
+msgstr "Added comment"
+
+msgid ": "
+msgstr ": "
+
+#, python-format
+msgid "%d point(s)"
+msgstr "%d point(s)"
+
+msgid "Points"
+msgstr "Points"
+
+msgid "This point item will be deleted permanently: are you sure?"
+msgstr "This point item will be deleted permanently: are you sure?"
+
+msgid "Statistics"
+msgstr "Statistics"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Download"
+msgstr "Download"
+
+#, python-format
+msgid "Last Export: %s"
+msgstr "Last Export: %s"
+
+msgid "Visits on the Desktop Platform"
+msgstr "Visits on the Desktop Platform"
+
+msgid "Directories"
+msgstr "Directories"
+
+msgid "Facilitators"
+msgstr "Facilitators"
+
+msgid "Developers"
+msgstr "Developers"
+
+msgid "Communication / Site activities"
+msgstr "Communication / Activities"
+
+msgid "Challenges"
+msgstr "Challenges"
+
+msgid "Articles"
+msgstr "Articles"
+
+msgid "Polls"
+msgstr "Polls"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Article title"
+msgstr "Article title"
+
+msgid "Published"
+msgstr "Published"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Edit article"
+msgstr "Edit article"
+
+msgid "Unpublish"
+msgstr "Unpublish"
+
+msgid "Publish"
+msgstr "Publish"
+
+msgid "Preview the article"
+msgstr "Preview the article"
+
+msgid "The article will be deleted. Are you sure?"
+msgstr "The article will be deleted. Are you sure?"
+
+msgid "Delete the article"
+msgstr "Delete the article"
+
+msgid "Add an article"
+msgstr "Add an article"
+
+msgid "Not started"
+msgstr "Not started"
+
+msgid "Finished"
+msgstr "Finished"
+
+msgid "Challenges management"
+msgstr "Challenges management"
+
+msgid "Challenge name"
+msgstr "Challenge name"
+
+#, python-format
+msgid "From %(start_date)s to %(end_date)s"
+msgstr "From %(start_date)s to %(end_date)s"
+
+msgid "The challenge will be deleted. Are you sure?"
+msgstr "The challenge will be deleted. Are you sure?"
+
+msgid "Delete the challenge"
+msgstr "Delete the challenge"
+
+msgid "Add a challenge"
+msgstr "Add a challenge"
+
+msgid "Points management"
+msgstr "Points management"
+
+msgid "Category:"
+msgstr "Category:"
+
+msgid "Recipients email addresses:"
+msgstr "Recipients email addresses:"
+
+msgid "How many points?"
+msgstr "How many points?"
+
+msgid "Reason?"
+msgstr "Reason?"
+
+msgid "Confirm"
+msgstr "Confirm"
+
+msgid "Polls management"
+msgstr "Polls management"
+
+msgid "Disable"
+msgstr "Disable"
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid "The poll will be deleted. Are you sure?"
+msgstr "The poll will be deleted. Are you sure?"
+
+msgid "Delete the poll"
+msgstr "Delete the poll"
+
+msgid "Add a poll"
+msgstr "Add a poll"
+
+msgid "All the facilitators"
+msgstr "All the facilitators"
+
+msgid "By state"
+msgstr "By state"
+
+msgid "Disabled"
+msgstr "Disabled"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid ""
+"This account was automatically imported and updated, some fields cannot "
+"be modified"
+msgstr ""
+
+msgid "Roles and access rights"
+msgstr "Roles and access rights"
+
+msgid "Validate"
+msgstr "Validate"
+
+msgid "View profile"
+msgstr "View profile"
+
+msgid "Create user"
+msgstr "Create user"
+
+msgid "User management"
+msgstr "User management"
+
+msgid "Manage users"
+msgstr "Manage users"
+
+#, python-format
+msgid ""
+"User deletion can't be reverted, are you sure you want to delete the "
+"account %s ?"
+msgstr ""
+"User deletion can't be reverted, are you sure you want to delete the "
+"account %s ?"
+
+msgid "Facilitator management"
+msgstr "Facilitator management"
+
+msgid ""
+"You can delete a facilitator by clicking on the icon of the first column,"
+" or replace a facilitator by clicking on its name."
+msgstr ""
+"You can delete a facilitator by clicking on the icon of the first column,"
+" or replace a facilitator by clicking on his/her name."
+
+msgid "Delete the facilitator"
+msgstr "Delete the facilitator"
+
+#, python-format
+msgid "Facilitator: %s"
+msgstr "Facilitator: %s"
+
+msgid "Replace this facilitator"
+msgstr "Replace this facilitator"
+
+#, python-format
+msgid ""
+"Select the new facilitator to replace \"%s\" by. This will change the "
+"facilitator of all the matching users."
+msgstr ""
+"Select the new facilitator to replace \"%s\" by. This will change the "
+"facilitator of all the matching users."
+
+msgid "Assign an entity to the facilitator"
+msgstr "Assign an entity to the facilitator"
+
+#, python-format
+msgid ""
+"Select the entity to assign to \"%s\". This will reassign all users of "
+"this entity to the facilitator."
+msgstr ""
+"Select the entity to assign to \"%s\". This will reassign all users of "
+"this entity to the facilitator."
+
+msgid "Experts management"
+msgstr "Experts management"
+
+msgid ""
+"You can delete an expert by clicking on the icon of the first column, or "
+"change its domain by clicking on its name."
+msgstr ""
+"You can delete an expert by clicking on the icon of the first column, or "
+"change its domain by clicking on its name."
+
+msgid "Business Area"
+msgstr "Business Area"
+
+msgid "Delete the expert"
+msgstr "Delete the expert"
+
+#, python-format
+msgid "Expert: %s"
+msgstr "Expert: %s"
+
+msgid "Assign domains to the expert"
+msgstr "Assign domains to the expert"
+
+msgid "Select one or more domains that the expert can handle"
+msgstr "Select one or more domains that the expert can handle"
+
+msgid "Please enter the expert's business area"
+msgstr "Please enter the expert's business area"
+
+msgid ""
+"For your information, here is the specialty defined in the expert's "
+"profile:"
+msgstr ""
+"For your information, here is the specialty defined in the expert's "
+"profile:"
+
+msgid "Replace the expert"
+msgstr "Replace the expert"
+
+#, python-format
+msgid ""
+"Select the new expert to replace \"%s\" by. This will change the expert "
+"of all the matching ideas."
+msgstr ""
+"Select the new expert to replace \"%s\" by. This will change the expert "
+"of all the matching ideas."
+
+msgid "See all launched ideas"
+msgstr "See all launched ideas"
+
+msgid "Discover Eurêka"
+msgstr "Discover Eurêka"
+
+msgid "Your suggestions"
+msgstr "Your suggestions"
+
+msgid "Consult the list of suggestions"
+msgstr "Consult the list of suggestions"
+
+#, python-format
+msgid "Already %s ideas"
+msgstr "Already %s ideas"
+
+msgid "View the ideas"
+msgstr "View the ideas"
+
+msgid "Welcome to"
+msgstr "Welcome to"
+
+msgid "Eurêka © Solocal 2014"
+msgstr "Eurêka Open Source"
+
+#, python-format
+msgid "Version %s"
+msgstr "Version %s"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "Contact us"
+msgstr "Contact us"
+
+msgid "Consulted expert"
+msgstr "Consulted expert"
+
+msgid "I develop the author's idea"
+msgstr "Enhance the author's idea"
+
+msgid ""
+"I can edit or fill in the idea to reflect my analysis. This addition will"
+" only be visible by me and by the people who I will forward the idea "
+"(DSIG, another idea developer)."
+msgstr ""
+
+msgid "I can change the idea title"
+msgstr "Change the idea title"
+
+msgid "I can change the idea description"
+msgstr "Change the idea description"
+
+msgid "I can change the expected impacts of the idea"
+msgstr "Change the expected impacts of the idea"
+
+msgid "I consulted experts"
+msgstr "Experts consulted"
+
+msgid "Write down the expert analysis"
+msgstr "Write down the expert analysis"
+
+msgid "Expert email"
+msgstr "Expert email"
+
+msgid "I fill in the email of the expert I consulted"
+msgstr "Fill in the email of the expert I consulted"
+
+msgid "I fill in the expert comment about the idea"
+msgstr "Fill in the expert comment about the idea"
+
+msgid "I evaluate the expected benefits of the idea"
+msgstr "Evaluate the expected benefits of the idea"
+
+msgid "Financial gain (additional turnover, savings, …)"
+msgstr "Financial gain (additional turnover, savings, …)"
+
+msgid "e.g. 3000€/year savings, potential 100 k€ turnover"
+msgstr "e.g. 3000€/year savings, potential 100 k€ turnover"
+
+msgid "Customer satisfaction"
+msgstr "Customer satisfaction"
+
+msgid "Business process simplification"
+msgstr "Business process simplification"
+
+msgid "e.g. 2 man-day saved per month, time saved, …"
+msgstr "e.g. 2 man-day saved per month, time saved, …"
+
+msgid "Public image, corporate image"
+msgstr "Public image, corporate image"
+
+msgid "e.g. good citizen corporate image, …"
+msgstr "e.g. good citizen corporate image, …"
+
+msgid "Office environment improvement"
+msgstr "Workplace environment improvement"
+
+msgid "Other unlisted impact"
+msgstr "Other unlisted impact"
+
+msgid "I assess the potential of implementing the idea"
+msgstr "Assess the potential of implementing the idea"
+
+msgid "I describe the innovation level from 1 to 5"
+msgstr "Describe the innovation level from 1 to 5"
+
+#, python-format
+msgid "%d:"
+msgstr "%d:"
+
+msgid "improvement idea"
+msgstr "improvement idea"
+
+msgid "operational idea"
+msgstr "operational idea"
+
+msgid "disruptive idea"
+msgstr "disruptive idea"
+
+msgid "strategic idea"
+msgstr "strategic idea"
+
+msgid "I describe the complexity level from 1 to 5"
+msgstr "Describe the implementation complexity level from 1 to 5"
+
+msgid "simple implementation"
+msgstr "simple implementation"
+
+msgid "quick implementation"
+msgstr "quick implementation"
+
+msgid "low resources"
+msgstr "low resources"
+
+msgid "complex implementation"
+msgstr "complex implementation"
+
+msgid "long implementation"
+msgstr "long implementation"
+
+msgid "high resources"
+msgstr "high resources"
+
+msgid "Can idea be duplicated?"
+msgstr "May the idea be duplicated?"
+
+msgid "What kind of idea is it?"
+msgstr "What kind of idea is it?"
+
+msgid "Local"
+msgstr "Local"
+
+msgid "Global"
+msgstr "Global"
+
+msgid "Strategic"
+msgstr "Strategic"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Expert"
+msgstr "Expert"
+
+msgid "Disturbing"
+msgstr "Disturbing"
+
+#, python-format
+msgid "This idea has been refused on %s"
+msgstr "This idea has been refused on %s"
+
+msgid "The expert opinion:"
+msgstr "The expert opinion:"
+
+msgid "Facilitator:"
+msgstr "Facilitator:"
+
+msgid "Expert:"
+msgstr "Expert:"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Challenge developers"
+msgstr "Challenge developers"
+
+msgid "Other developers"
+msgstr "Other developers"
+
+#~ msgid ""
+#~ "I can edit or fill in the "
+#~ "idea to reflect my analysis. This "
+#~ "addition will only be visible by "
+#~ "me and by the people who I "
+#~ "will forward the idea (administrator, "
+#~ "another idea developer)."
+#~ msgstr ""
+#~ "I can edit or fill in the "
+#~ "idea to enhance my analysis. Only "
+#~ "the Eureka team and the experts "
+#~ "may read my comments(administrator, another"
+#~ " expert)."
+

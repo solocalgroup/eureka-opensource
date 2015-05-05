@@ -1,0 +1,12 @@
+label;rank;en_label;fr_label
+SALES_DOMAIN;1;Sales;Commercial
+COMMUNICATION_DOMAIN;2;Communication;Communication
+SUSTAINABLE_DEVELOPMENT_DOMAIN;3;Sustainable development;Développement durable
+PROCESS_OPTIMIZATION_DOMAIN;4;Process optimization;Efficacité / processus / organisation
+COMPUTING_DOMAIN;5;Computing;Informatique
+LEGAL_DOMAIN;6;Legal;Juridique
+PRODUCTS_AND_SERVICES_DOMAIN;7;Products and services;Produits / Services
+TECHNOLOGIES_DOMAIN;8;Technologies;Technologies
+STRATEGY_DOMAIN;9;Strategy;Stratégie
+HUMAN_RESOURCES_DOMAIN;10;Human resources;Ressources humaines
+OFFICE_ENVIRONMENT_DOMAIN;11;Workplace environment;Environnement au travail

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faqs>
+
+<faq>
+<title>Le programme Innovation Collaborative Salariés</title>
+<content>
+<ol>
+<li><a id="faq_1_1_q" href="#faq_1_1_q" onclick="change_visibility('faq_1_1');">Pourquoi cette démarche ?</a>
+<div id="faq_1_1" class="faq_hidden">
+<p>L'Innovation Participative Salariés, c'est <strong>1 ambition, 2 leviers d'action et 3 objectifs :</strong><br/>
+<strong>1 AMBITION :</strong><br/></p>
+<p>Eurêka permet à chacun d'entre nous de participer au développement du Groupe en proposant des idées innovantes dont certaines seront sélectionnées pour être mises en œuvre.</p>
+<p>Chaque direction ou filiale vous invitera régulièrement à réfléchir, seul ou à plusieurs, autour d'une question spécifique. Ce sont les défis.</p>
+<p>Comment ? En donnant la possibilité, à tous les salariés de répondre aux défis du Groupe. Ce sont eux qui font avancer Solocal et construisent son avenir !
+
+<strong>2 LEVIERS D'ACTION :</strong><br/></p>
+<p>Animer une vraie <strong>communauté</strong> avec partage des idées, de savoirs et d'expériences.</p>
+<p>Développer un <strong>système de remontée d'information</strong> qui favorise la contribution de chacun grâce à Eurêka, une <strong>plateforme de dépôt et de partage d'idées ouverte à tous</strong>.
+
+<strong>3 OBJECTIFS :</strong><br/></p>
+<p><strong>Stimuler</strong> l'initiative et la créativité de tous les collaborateurs pour déposer des idées qui répondent aux enjeux de l'entreprise (amélioration de processus, développement de nouveaux business, satisfaction des clients/utilisateurs, …)</p>
+<p><strong>Reconnaître et récompenser</strong> les meilleures idées </p>
+<p><strong>Transformer</strong> les idées en résultats tangibles</p>
+
+</div>
+</li>
+
+<li><a id="faq_1_2_q" href="#faq_1_2_q" onclick="change_visibility('faq_1_2');">Qu'est-ce qu'on en attend ?</a>
+<div id="faq_1_2" class="faq_hidden">
+<p>On attend de ce programme <strong>une implication de tous les collaborateurs</strong> quel que soit leur filiale pour développer <strong>l'innovation</strong> dans le Groupe, que ce soit au niveau de notre organisation, des process, des services, des produits, etc. Et encore plus de dialogue entre toutes les équipes du Groupe, avec en toile de fond la mise en place d'une <strong>culture de l'innovation</strong>.</p>
+</div>
+</li>
+
+<li><a id="faq_1_3_q" href="#faq_1_3_q" onclick="change_visibility('faq_1_3');">Qu'est-ce qu'un défi ?</a>
+<div id="faq_1_3" class="faq_hidden">
+<p><strong>Un défi est un appel à idées sur un sujet clé spécifique, émis à tous les collaborateurs pendant un laps de temps défini.</strong></p>
+<p>Ce sujet peut concerner tout le Solocal Groupe, ou bien être dédié à une problématique particulière rencontrée par un ou plusieurs services/entités.
+Au terme du défi, des récompenses seront remises aux meilleures idées du défi. Les auteurs et les idées lauréates et nominées seront mis en valeur.</p>
+</div>
+</li>
+
+
+<li><a id="faq_1_4_q" href="#faq_1_4_q" onclick="change_visibility('faq_1_4');">Des idées mais sur quoi ? Une bonne idée,qu'est-ce que c'est ?</a>
+<div id="faq_1_4" class="faq_hidden">
+<p>Les différentes Directions et filiales <strong>vous soumettront régulièrement des défis portant sur des questions clés</strong>. Le Groupe compte sur l'ensemble de ses collaborateurs pour se mobiliser et répondre à ses enjeux.
+Les idées déposées sur Eurêka doivent servir :</p>
+<p><strong>Les enjeux du Groupe</strong> : satisfaction de nos clients, amélioration de nos process/organisations, développement de nouveaux services pour les utilisateurs…</p>
+<p><strong>Et/ou les métiers de l'entreprise</strong> : la technique, le commercial, la communication, les process ou encore notre organisation au quotidien,...Mais la liste est encore longue !</p>
+
+<p>Parmi les critères qui peuvent vous guider :<br/>
+<strong>1. LA NOUVEAUTE : l'idée est inédite</strong> : par rapport aux processus/produits/services existants dans le Groupe ou par rapport à ce qui existe sur le marché<br/>
+<strong>2. LA FAISABILITE : l'idée est accompagnée d'une réflexion / préconisation de mise en place.</strong> Son utilisation/ application dans le Groupe doit apporter des résultats argumentés<br/>
+<strong>3. L'IMPACT : la mise en place de mon idée doit apporter un progrès à l'échelle de l'entreprise ou de l'équipe (idée de proximité)</strong>. Cette amélioration serait réelle et mesurable (efficacité, économies, qualité, image, gains de productivité, satisfaction clients, nouveaux produits, nouveaux services…).<br/>
+</p>
+<p><strong>Une bonne idée n'est pas forcément une grande invention !</strong> Il peut s'agir d'une manière de simplifier les procédures pour résoudre un problème récurrent, éviter des dépenses ou des investissements, adapter une bonne pratique vue ailleurs...</p>
+<p>Rappelons que les idées et les commentaires doivent être déposés <strong>dans un esprit de construction, d'amélioration</strong> mais également de respect des autres et de la légalité.</p>
+</div>
+</li>
+
+<li><a id="faq_1_5_q" href="#faq_1_5_q" onclick="change_visibility('faq_1_5');">Qu'est-ce qui n'est pas une bonne idée ?</a>
+<div id="faq_1_5" class="faq_hidden">
+<p>- Une <strong>déclaration d'intention</strong> utopique type <b>« yaquafautquon »</b> non accompagnée d'une réflexion sur la possibilité de sa mise en oeuvre : « ex : racheter Google »</p>
+<p>- Un <strong>constat de dysfonctionnement</strong> non accompagné d'une proposition constructive : « ex : la machine à café tombe toujours en panne »</p>
+<p>- Un besoin d'achat ou une <strong>demande d'investissement déguisée</strong> : « ex : les commerciaux seraient beaucoup plus efficaces avec 2 iPhones, un forfait illimité et un MacBook Pro »</p>
+</div>
+</li>
+
+<li><a id="faq_1_6_q" href="#faq_1_6_q" onclick="change_visibility('faq_1_6');">Quel est le parcours d'une idée ?</a>
+<div id="faq_1_6" class="faq_hidden">
+<img src="/static/eureka/html/static_edito/faq_1_6-1-fr.png" style="float:none;width:647px;"/>
+</div>
+</li>
+
+<li><a id="faq_1_7_q" href="#faq_1_7_q" onclick="change_visibility('faq_1_7');">Quel système de reconnaissance pour les meilleurs contributeurs ?</a>
+<div id="faq_1_7" class="faq_hidden">
+<p><strong>A chaque fois que je contribue sur Eurêka, je gagne et je cumule des points.</strong></p>
+<p>Mon compteur tourne lorsque je dépose une idée, que je commente une idée, que je vote, que je réponds à un sondage ou que je gagne un défi, selon un barème prédéfini.</p>
+
+<style>
+div.points {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+div.points .left {
+    float:left;
+    width:280px;
+}
+
+div.points .right {
+    float:right;
+    width:280px;
+}
+
+.faqBox em {
+    font-style: italic;
+}
+
+.faqBox table {
+    border: 2px solid;
+    border-right: 1px solid;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.faqBox table th {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.faqBox table td {
+    border-top: 1px solid;
+    border-right: 1px solid;
+    padding: 3px;
+}
+
+.faqBox table th,
+.faqBox table td {
+    text-align: center;
+}
+</style>
+
+<div class="points">
+    <div>
+        <table class="nav_points">
+            <tr>
+                <th>Action</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Connexion sur Eurêka</strong>
+                    <br/>
+                    <em>(dans la limite d'un point par jour)</em>
+                </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Un vote</strong>
+                    <br/>
+                    <em>(dans la limite de 3 points par jour)</em>
+                </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Un commentaire déposé</strong>
+                    <br/>
+                    <em>(dans la limite de 2 points par jour)</em>
+                </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Première idée publiée sur un Défi</strong>
+                </td>
+                <td>50</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table class="wf_points">
+            <tr>
+                <th>Progression</th>
+                <th>Stade</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step7.jpg" />
+                </td>
+                <td>Déployée</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step6.jpg" />
+                </td>
+                <td>Mise en Pilote</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step5.jpg" />
+                </td>
+                <td>Mise en Projet</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step4.jpg" />
+                </td>
+                <td>Sélectionnée</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step3.jpg" />
+                </td>
+                <td>Recommandée</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step2.jpg" />
+                </td>
+                <td>En cours d'étude</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step1.jpg" />
+                </td>
+                <td>Déposée et Publiée</td>
+                <td>10</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<p>Dans le cadre d'une idée déposée de manière collective, <strong>les points seront partagés de manière égale</strong> entre les co-auteurs, et arrondis au point supérieur (ex : je dépose une idée avec 3 co-auteurs, nous recevrons chacun 4 points lorsque l'idée sera publiée).</p>
+</div>
+</li>
+
+<li><a id="faq_1_7bis_q" href="#faq_1_7bis_q" onclick="change_visibility('faq_1_7bis');">A quoi correspondent les grades ?</a>
+<div id="faq_1_7bis" class="faq_hidden">
+
+<p>En fonction de votre contribution, vous cumulez des points (cf. question 7). Je monte en grade.<br/>
+<strong> Mais c’est quoi exactement, ces grades ?</strong><br/>
+Les grades sont automatiquement attribués de la façon suivante :<br/>
+<ul><li style="list-style-type:disc;">Pionnier</li><li style="list-style-type:disc;">Explorateur</li><li style="list-style-type:disc;">Découvreur</li><li style="list-style-type:disc;">Visionnaire</li><li style="list-style-type:disc;">Lumière</li></ul>
+</p>
+
+<table>
+<tr><td>Intitulé</td><td>Nombre de points *</td></tr>
+<tr style="font-size:140%"><td><b style="color:#D4007A">Lumière</b></td><td>10 000 et +</td></tr>
+<tr style="font-size:130%"><td><b style="color:#D4007A">Visionnaire</b></td><td>2 000 à 10 000</td></tr>
+<tr style="font-size:120%"><td><b style="color:#D4007A">Découvreur</b></td><td>200 à 2 000</td></tr>
+<tr style="font-size:110%"><td><b style="color:#D4007A">Explorateur</b></td><td>100 à 200</td></tr>
+<tr style="font-size:100%"><td><b style="color:#D4007A">Pionnier</b></td><td>1 à 100</td></tr>
+<tr style="font-size:90%"><td><b style="color:#D4007A">Inactif</b></td><td>0</td></tr>
+</table>
+<p><em>* : Ce barême peut être modifié en fonction de l'évolution du programme.</em></p>
+
+<p>Votre grade sera indiqué <strong>en dessous de votre photo</strong>, comme l'exemple ci-dessous :</p>
+<p style="text-align:center"><img src="/static/eureka/html/static_edito/faq_1_7b-1-fr.png" /></p>
+<p>Ou sur votre profil.</p>
+
+</div>
+</li>
+
+<li><a id="faq_1_8_q" href="#faq_1_8_q" onclick="change_visibility('faq_1_8');">Comment suivre et convertir mes points ?</a>
+<div id="faq_1_8" class="faq_hidden">
+<p>Mes points disponibles et mes points acquis sont visibles dans <strong>Mon Profil</strong>.</p>
+<p><strong>Mes points disponibles</strong> correspondent aux points que je n'ai pas encore convertis en cadeaux.</p>
+
+<p><strong>Mes points acquis</strong> correspondent aux points que j'ai accumulés depuis ma première connexion.</p>
+<p>Lorsque mon crédit de points disponibles aura atteint <strong>un palier de 500 points</strong>, j'aurai la possibilité de les convertir en cadeaux à deux moments de l'année : <strong>en septembre et en janvier.</strong></p>
+<p>Pour des raisons d'efficacité de traitement des demandes et de distribution des cadeaux, aucune demande ne pourra être prise en compte en dehors de ces 2 périodes.</p>
+<p>En cas d'absence de longue durée (arrêt maladie, congé maternité, formation...) mes points restent acquis.</p>
+<p>La livraison des cadeaux peut se faire <strong>soit au domicile, soit au bureau.</strong></p>
+
+</div>
+</li>
+
+<li><a id="faq_1_9_q" href="#faq_1_9_q" onclick="change_visibility('faq_1_9');">Quel est mon Facilitateur Innovation ? Quel est son rôle ?</a>
+<div id="faq_1_9" class="faq_hidden">
+<p>Le nom de mon Facilitateur Innovation est visible dans <strong>« Mon profil »</strong>. C'est <strong>mon interlocuteur privilégié</strong> pour me donner des informations sur Eurêka et <strong>animer les équipes</strong> de mon entité (ma direction ou ma filiale).</p>
+<p>C'est le Facilitateur qui recevra <strong>en premier mon idée</strong>. Si besoin, avant de la <strong>publier sur Eurêka</strong>, il pourra me demander de l'enrichir pour mieux la mettre en valeur. Une fois publiée, il <strong>enverra l'idée au Développeur d'idées</strong> correspondant à la thématique de l'idée, qui sera en charge de son évaluation.</p>
+</div>
+</li>
+
+
+<li><a id="faq_1_10_q" href="#faq_1_10_q" onclick="change_visibility('faq_1_10');">Quel est le rôle des Développeurs d'Idées ?</a>
+<div id="faq_1_10" class="faq_hidden">
+<p>Dans le cadre du dépôt d’idées de façon spontanée : selon la thématique dans laquelle est classée mon idée, elle sera envoyée par mon Facilitateur Innovation vers un <strong>Développeur d'Idées</strong> ayant les <strong>compétences métier</strong> nécessaires pour <strong>l'évaluer</strong> et la présélectionner si elle présente une réelle avancée pour le Groupe.</p>
+<p>Dans son travail d'évaluation, il pourra s'appuyer sur les commentaires de la communauté des collaborateurs et sur des expertises internes.</p>
+<p>Il évaluera le potentiel de mon idée, l'entité dans laquelle elle pourrait être mise en œuvre, et les moyens nécessaires pour cette mise en œuvre.</p>
+<p>Dans le cadre d’un défi : Des développeurs d’idées seront nommés pour chaque défi lancé. Ils enverront ensuite une <strong>pré-sélection des meilleures idées</strong> aux Directeurs sponsors des défis.</p>
+<p>Chaque fois qu’une action est faite sur votre idée (avancement de l’idée, commentaires déposés,…) vous recevrez un mail pour vous en informer.</p>
+</div>
+</li>
+
+<li><a id="faq_1_11_q" href="#faq_1_11_q" onclick="change_visibility('faq_1_11');">Quel est le rôle des Managers ?</a>
+<div id="faq_1_11" class="faq_hidden">
+<p>Les managers, en favorisant un état d'esprit d'ouverture et de créativité dans leur équipe, sont de véritables <strong>promoteurs du changement</strong>. En nous impliquant dans ce programme d'Innovation Collaborative, <strong>ils permettent à tous les collaborateurs d'être de véritables acteurs de la transformation du Groupe</strong>.</p>
+<p>Ils pourront être sollicités par les Développeurs d'Idées pour apporter <strong>leur ouverture d'esprit et leur expertise</strong> sur une idée, pendant la phase d'évaluation.</p>
+<p>Et bien entendu, ils <strong>valoriseront</strong> les collaborateurs et les idées dans leur équipe.</p>
+</div>
+</li>
+
+<li><a id="faq_1_12_q" href="#faq_1_12_q" onclick="change_visibility('faq_1_12');">Comment lancer un défi Eurêka sponsorisé par ma direction ou ma filiale ?</a>
+<div id="faq_1_12" class="faq_hidden">
+<p>Si vous avez une bonne idée de défi que votre entité (Direction ou filiale) pourrait lancer à l'ensemble des collaborateurs du Groupe, vous pouvez bien évidemment la soumettre au directeur de votr entité. </p>
+<p><strong>Le lancement des défis est effectivement à l'initiative des directeurs d'entité</strong> qui souhaitent solliciter l'ensemble des collaborateurs du Groupe sur des <strong>questions-clés présentant un enjeu direct pour elle.</strong> </p>
+<p><strong>L'équipe DRH/Eurêka viendra alors en appui</strong> de la Direction ou Filiale, pour planifier le lancement du Défi, recueillir le nom des Développeurs d'Idées et du jury de sélection, et mettre en place la communication et l'animation.</p>
+<p>Pour toute question sur le lancement des défis, contacter <a href="mailto:achaintron@pagesjaunes.fr">achaintron@pagesjaunes.fr</a> ou <a href="mailto:candriamadison@pagesjaunes.fr">candriamadison@pagesjaunes.fr</a></p>
+
+</div>
+</li>
+
+<li><a id="faq_1_13_q" href="#faq_1_13_q" onclick="change_visibility('faq_1_13');">Quelques idées reçues à réfuter ... avec le sourire :-)</a>
+<div id="faq_1_13" class="faq_hidden">
+<p><strong>« C'est du travail en plus, je suis débordé… »</strong><br/>
+Avoir des idées, ça fait partie du quotidien. Grâce à EUREKA, <strong>je sais où et comment partager mes idées</strong> avec tous les collaborateurs du Groupe. Chacun est invité à les commenter pour qu'une dynamique s'installe ! <br/>
+<strong>Poster une idée sur Eurêka ne prend que quelques minutes</strong>. L'outil a été conçu de manière à être simple et rapide. En plus, l'équipe Eurêka est à votre écoute pour améliorer son utilisation, n'hésitez donc pas à envoyer vos suggestions.</p>
+
+<p><strong>« L'innovation, cela concerne surtout le marketing et Internet »</strong><br/>
+Améliorer ses méthodes de travail, simplifier les procédures, etc. permet de gagner en efficacité, et <strong>c'est aussi çà l'innovation</strong>.
+Une "petite" idée peut prendre une "grande" valeur pour les collaborateurs et l'entreprise si des managers, des experts et des collègues viennent l'enrichir. <strong>Ensemble, on est plus forts ! Et puis... Une bonne idée peut tout changer !</strong>
+</p>
+<p><strong>« Les procédures existent et sont faites pour être appliquées»</strong><br/>
+Tout à fait exact ! Cependant, les idées apportées par les collaborateurs sont indispensables à l'amélioration constante de nos méthodes de travail et de la satisfaction des clients. Les référentiels ne peuvent pas prendre en compte toutes les réalités de la mise en oeuvre sur le terrain : <strong>les idées peuvent aider à les faire évoluer tout en les respectant.</strong>
+</p>
+
+</div>
+</li>
+
+</ol>
+
+</content>
+</faq>
+
+<faq>
+<title>Le site EUREKA</title>
+<content>
+
+<ol>
+<li><a id="faq_2_1_q" href="#faq_2_1_q" onclick="change_visibility('faq_2_1');">Comment puis-je déposer une idée ?</a>
+<div id="faq_2_1" class="faq_hidden">
+<p>Vous avez la possibilité à tout moment de cliquer sur le bouton « déposez une idée » présent dans le <strong>menu de gauche</strong> :<br/>
+
+<img src="/static/eureka/html/static_edito/faq_2_1-1-fr.png" style="float:none;" width="296"/><br/>
+Remplissez les <strong>champs obligatoires</strong> (signalés par un astérisque).<br/>
+Dans le champ <strong>Titre</strong> : Résumez votre idée en quelques mots.<br/>
+Dans le champ <strong>Défi</strong> : Sélectionnez le défi auquel vous souhaitez participer. Par défaut la
+sélection est sur le défi en cours. <b>Remarque</b> : si c’est une idée spontanée qui ne correspond pas à un défi,
+sélectionnez « Aucun ».<br/>
+Dans le champ <strong>Description</strong> : Décrivez votre proposition, en quoi votre idée apporterait un progrès,
+une amélioration ou une nouveauté à l'échelle du Groupe, ou d'une entité. Le mieux, décrire les moyens ou les solutions
+que vous préconisez pour mettre cette idée en œuvre.<br/>
+Vous avez la possibilité de <strong>masquer votre nom</strong>, pour qu'il ne soit pas visible par votre Facilitateur
+Innovation. <b>Attention</b>, une fois que votre Facilitateur Innovation aura publié votre idée sur Eurêka, votre
+identité sera visible par tous les collaborateurs.<br/>
+Pour mettre en valeur votre idée, vous pouvez compléter les <strong>champs optionnels.</strong><br/>
+Dans le champ <strong>Origine</strong> : Décrire comment l'idée vous est venue (ex : j'ai constaté un problème
+récurrent qui pourtant être facilement résolu, j'ai découvert de nouveau service/produit proposé par un
+concurrent, une pratique mise en place dans une autre entreprise,…)<br/>
+Dans le champ <strong>Impact</strong> : Décrivez le bénéfice que pourrait apporter la mise en place de votre idée
+(ex : gain de temps, amélioration de l'image de marque, un CA additionnel généré par un nouveau produit…)<br/>
+Dans le champ <strong>Mots clés</strong> : Inscrivez quelques mots clés qui pourront permettre aux autres
+collaborateurs de trouver facilement votre idée dans l'outil "recherche".<br/>
+Une fois les champs remplis, y'a plus qu'à ! vous pouvez maintenant <strong>Soumettre l'idée.</strong><br/>
+<img src="/static/eureka/html/static_edito/faq_2_1-2-fr.png" style="float:none;"/><br/>
+Votre idée déposée sera envoyée à votre Facilitateur Innovation, qui si besoin, pourra vous demander de l'enrichir avant de la
+publier sur Eurêka. Il l'enverra ensuite vers le Développeur d'Idées chargé de son évaluation (en fonction
+de la thématique de l'idée). Si vous n'avez pas fini de remplir le formulaire de dépôt d'idée, vous pouvez tout aussi bien le <strong>Sauvegarder en
+brouillon</strong>, et le compléter plus tard.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_1-3-fr.png" style="float:none;"/></p>
+</div>
+</li>
+
+<li><a id="faq_2_2_q" href="#faq_2_2_q" onclick="change_visibility('faq_2_2');">Comment puis-je retravailler ou compléter mon idée
+plus tard ?</a>
+<div id="faq_2_2" class="faq_hidden">
+<p>Si vous n'avez pas fini de remplir le formulaire de dépôt d'idée, vous pouvez tout simplement le sauvegarder en cliquant sur le <strong>Sauvegarder en brouillon</strong>.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_1-3-fr.png" style="float:none;"/><br/>
+Votre idée est automatiquement placée dans l'onglet <strong>« Mes idées »</strong>. Pour y revenir, il suffit de cliquer sur l'onglet <img src="/static/eureka/html/static_edito/faq_2_2-fr-plume.png" style="float:none;"/> en haut de page puis sur le lien <strong>« idées dans l'état : Brouillon »</strong>. En cliquant sur le bouton « Editer » vous aurez alors la possibilité de compléter ou modifier votre formulaire. Une fois finalisée, vous pouvez donc <strong>« Soumettre »</strong> votre idée pour l'envoyer à votre Facilitateur Innovation.</p>
+</div>
+</li>
+
+<li><a id="faq_2_3_q" href="#faq_2_3_q" onclick="change_visibility('faq_2_3');">Comment puis-je rechercher un idée ou consulter un profil sur Eurêka ?</a>
+<div id="faq_2_3" class="faq_hidden">
+<p>Facile ! En haut de page, cliquez sur le picto <img src="/static/eureka/html/static_edito/faq_2_3-fr-loupe.png" style="float:none;"/>  qui sera toujours présent,
+au même endroit sur les différentes pages de la plateforme. Une fois que vous cliquez dessus, il ne vous reste qu’à cocher la case correspondante à votre recherche
+(soit une idée, soit un profil) et puis taper le mot clé dans la barre de recherche.<br/>
+Exemple : <img src="/static/eureka/html/static_edito/faq_2_3-fr-recherche.png" style="float:none;"/><br/>
+Cliquez à nouveau sur la <strong>« loupe »</strong> pour lancer votre recherche ou alors tapez sur la touche <strong>« entrée »</strong>
+</p>
+</div>
+</li>
+
+<li><a id="faq_2_31_q" href="#faq_2_31_q" onclick="change_visibility('faq_2_31');">Je viens de voir qu’une idée d’un collaborateur existe déjà. Que dois-je faire ?</a>
+<div id="faq_2_31" class="faq_hidden">
+<p>Pour nous signaler un doublon, c’est très simple. Il vous suffira de cliquer sur le bouton <img src="/static/eureka/html/static_edito/faq_2_31-fr-exclamation.png" style="float:none;"/>  puis faire le choix entre deux raisons de signalement :<br/>
+<img src="/static/eureka/html/static_edito/faq_2_31-fr-idee-similaire.png" style="float:none;"/><br/>
+Si vous cliquez sur <strong>« Une idée similaire a déjà été postée »,</strong> il vous faudra nous indiquer l’idée déjà existante :<br/>
+<img src="/static/eureka/html/static_edito/faq_2_31-fr-formulaire-idee-similaire.png" style="float:none;"/><br/>
+Si vous cliquez sur <strong>« Je sais qu’elle est en cours de développement ou réfléxion »</strong>, merci de nous donner un maximum d’information concernant
+ce projet et de nous spécifier dans quelle direction l’idée est en cours de développement ou réflexion :<br/>
+<img src="/static/eureka/html/static_edito/faq_2_31-fr-formulaire-idee-en-dev.png" style="float:none;"/><br/>
+</p>
+</div>
+</li>
+
+<li><a id="faq_2_4_q" href="#faq_2_4_q" onclick="change_visibility('faq_2_4');">Comment puis-je me tenir informé de l'actualité d'Eurêka ?</a>
+<div id="faq_2_4" class="faq_hidden"><p>
+- Vous pouvez consulter les <strong>dernières idées publiées</strong> ainsi <strong>que les idées ayant avancé de statut</strong> ou encore celles ayant de <strong>nouveaux commentaires</strong>sur la page d'accueilsur la page d'accueil<br/>
+- Vous pouvez consulter les idées dans la partie <strong>« IDées »</strong>présente dans le menu
+- <strong>Le carrousel</strong> vous permettra aussi d’être informé des news, des nouveaux articles publiés, des résultats de défis, etc…
+- Pour accéder à l’ensemble des actualités, il suffit de cliquer sur <strong>« actualités »</strong> dans le menu de gauche.</p>
+</div>
+</li>
+
+<li><a id="faq_2_5_q" href="#faq_2_5_q" onclick="change_visibility('faq_2_5');">Comment puis-je consulter ou modifier mon profil ?</a>
+<div id="faq_2_5" class="faq_hidden">
+<p><strong>Mon profil</strong> est visible par la communauté des collaborateurs du Groupe. Les informations sont optionnelles et déclaratives. Pour y accéder, il suffit simplement de cliquer sur votre nom en haut de la page.
+Vous pouvez <strong>compléter vos informations personnelles</strong> (« qui suis-je ? », « mes compétences », « mes expertises », « mes hobbies »,…) pour faciliter la mise en relation avec les autres collaborateurs du Groupe.
+Vous pouvez ensuite valider vos modifications en cliquant sur le bouton <br/>
+<img src="/static/eureka/html/static_edito/faq_2_5-1-fr-bouton-valider.png" style="float:none;"/><br/>
+Mais vous pouvez également consulter <strong>votre nombre de points cumulés, votre grade</strong> dans Eurêka, <strong>vos idées déposées</strong> mais également <strong>celles que vous suivez</strong> et <strong>le nom de votre Facilitateur Innovation</strong>.<br/>
+Sur le profil de chaque collaborateur figure aussi <strong>ses activités</strong> sur Eurêka (s’il a suivi une idée, voté ou encore commenté)<br/>
+Avec <strong>votre photo</strong>, c'est plus sympathique ! Vous pouvez rechercher une photo que vous souhaitez télécharger en cliquant sur <strong>« choisissez un fichier »</strong> puis <img src="/static/eureka/html/static_edito/faq_2_5-1-fr-bouton-changer-photo.png" style="float:none;"/>.
+<strong>Attention</strong> toutefois aux droits d'auteur, si vous décidez de mettre en ligne une image qui ne vous appartient pas…<br/></p>
+</div>
+</li>
+
+<li><a id="faq_2_6_q" href="#faq_2_6_q" onclick="change_visibility('faq_2_6');">Comment puis-je être informé du traitement de mes idées ?</a>
+<div id="faq_2_6" class="faq_hidden"><p>
+- A chaque étape franchie par votre idée, vous recevrez une <strong>notification par e-mail</strong> (ex : idée publiée par mon Facilitateur Innovation, idée en cours d'évaluation par un Développeur d'Idées…).<br/>
+- Vous pouvez également retrouver toutes les idées que vous avez sauvegardées en brouillon et/ou déposées dans l'onglet <strong>« Mes idées »</strong> disponible à partir du picto <img src="/static/eureka/html/static_edito/faq_2_2-fr-plume.png" style="float:none;"/></p>
+
+</div>
+</li>
+
+<li><a id="faq_2_7_q" href="#faq_2_7_q" onclick="change_visibility('faq_2_7');">Que dois-je faire si mon Facilitateur Innovation me renvoie une idée pour que je la complète ?</a>
+<div id="faq_2_7" class="faq_hidden">
+<p><strong>Dans l'e-mail</strong> envoyé par votre Facilitateur Innovation, vous pouvez cliquer <strong>sur le lien</strong> et arriver directement sur l'idée à compléter.<br/>
+Vous pouvez également aller directement dans l'onglet <strong>« Mes idées »</strong> (<img src="/static/eureka/html/static_edito/faq_2_2-fr-plume.png" style="float:none;"/>) et y trouver la liste des idées à compléter ou à modifier <strong>« idée en état : Normalisation par l'auteur »</strong>.<br/>
+En cliquant sur le bouton <img src="/static/eureka/html/static_edito/faq_2_7-fr-crayon.png" style="float:none;"/><strong>(j'enrichis)</strong>, vous pouvez modifier ou compléter votre idée.<br/>
+Puis vous cliquez sur le bouton <strong>« Soumettre mon idée»</strong> pour l'envoyer à votre Facilitateur Innovation.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_1-2-fr.png" style="float:none;"/><br/>
+<b>Petite astuce</b> : Vous remplissez le formulaire de la manière la plus complète possible pour mettre votre idée en valeur.<br/></p>
+</div>
+</li>
+
+<li><a id="faq_2_8_q" href="#faq_2_8_q" onclick="change_visibility('faq_2_8');">Comment puis-je supprimer un commentaire ?</a>
+<div id="faq_2_8" class="faq_hidden"><p>
+A tout moment, vous avez la possibilité de <strong>supprimer tout commentaire que vous avez laissé</strong> en cliquant sur le picto <img src="/static/eureka/html/static_edito/faq_2_8-1-fr-croix.png" style="float:none;"/><br/> en bas de chacun de vos commentaires.<br/>
+A tout moment, vous avez la possibilité de <strong>signaler un abus dans un commentaire</strong>.<br/>
+En cliquant sur le picto <img src="/static/eureka/html/static_edito/faq_2_8-fr-exclamation.png" style="float:none;"/> en bas du commentaire, le texte sera automatiquement rendu invisible pour les autres collaborateurs. L'équipe Eurêka sera informée et analysera ce commentaire.<br/></p>
+</div>
+</li>
+
+<li><a id="faq_2_9_q" href="#faq_2_9_q" onclick="change_visibility('faq_2_9');">Comment proposer une idée pour améliorer l'utilisation du site EUREKA ?</a>
+<div id="faq_2_9" class="faq_hidden"><p>
+L'équipe Eurêka souhaite vous impliquer dans la co-construction de la plateforme et dans la conception du programme Innovation Collaborative.<br/>
+N'hésitez donc pas à nous <strong>envoyer vos suggestions d'amélioration</strong> en remplissant le formulaire<br/>
+Pour y accéder, c’est facile :<br/>
+
+- En bas de page, vous trouverez le lien « suggestions »
+<strong>Ou</strong><br/>
+- Dans la rubrique « aide », cliquez sur le bouton « Suggérer des améliorations » qui vous dirigera automatiquement vers la page des suggestions. Une fois sur cette page, cliquez sur le bouton <img src="/static/eureka/html/static_edito/faq_2_8-fr-depot-suggestion.png" style="float:none;"/> et remplissez le formulaire.</p>
+
+</div>
+</li>
+
+<li><a id="faq_2_10_q" href="#faq_2_10_q" onclick="change_visibility('faq_2_10');">Ma question de figure pas dans cette liste</a>
+<div id="faq_2_10" class="faq_hidden">
+<p>Vous pouvez dores et déjà vous adresser à votre <strong>Facilitateur Innovation</strong>, dont une des missions est d'animer votre entité en apportant <strong>conseil et écoute</strong>.
+Sinon, vous avez aussi la possibilité de remplir le <strong>formulaire de contact</strong> qui sera automatiquement envoyé à l’équipe Eurêka. Pour y accéder, cliquez simplement sur le bouton « Nous contacter » dans le menu.<br/></p>
+</div>
+</li>
+
+</ol>
+
+</content>
+</faq>
+
+</faqs>
+

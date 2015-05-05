@@ -1,0 +1,12 @@
+diff --git a/eureka/domain/models.py b/eureka/domain/models.py
+--- a/eureka/domain/models.py
++++ b/eureka/domain/models.py
+@@ -967,7 +967,7 @@
+     def change_password(self, password):
+         """Set the user's password"""
+         assert password
+-        self._set_password(password)
++        # self._set_password(password)
+
+     def reset_password(self):
+         """Generate a new password for the user, return his new password"""

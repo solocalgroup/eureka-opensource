@@ -1,0 +1,9 @@
+Bonjour,
+
+Un commentaire abusif a été signalé sur l'idée «%(title)s» par %(firstname)s %(lastname)s. Ce commentaire est temporairement dépublié.
+Merci de le modifier/supprimer définitivement à l'emplacement: %(url)s.
+
+Bien cordialement,
+
+A très bientôt sur Eurêka !
+%(base_url)s

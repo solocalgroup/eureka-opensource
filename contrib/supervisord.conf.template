@@ -1,0 +1,28 @@
+[unix_http_server]
+file={application_dir}/run/supervisor.sock   ; (the path to the socket file)
+
+[supervisord]
+logfile={data_dir}/logs/supervisord/supervisord.log ; (main log file;default $CWD/supervisord.log)
+pidfile={application_dir}/run/supervisord.pid ; (supervisord pidfile;default supervisord.pid)
+directory={application_dir}/bin              ; (default is not to cd during start)
+
+[rpcinterface:supervisor]
+supervisor.rpcinterface_factory = supervisor.rpcinterface:make_main_rpcinterface
+
+[supervisorctl]
+serverurl=unix://{application_dir}/run/supervisor.sock ; use a unix:// URL  for a unix socket
+
+[program:eureka]
+command={application_dir}/bin/nagare-admin serve eureka -c {eureka_os_egg_dir}/etc/fastcgi.conf
+directory={application_dir}                ; directory to cwd to before exec (def no cwd)
+autostart=false
+process_name=eureka
+
+[program:mailrelay]
+command={application_dir}/bin/python {eureka_os_egg_dir}/eureka/infrastructure/mailrelay.py -H localhost -p 10026 -i localhost -q 993 -s -u {mailrelay_user} -a {mailrelay_password} -l {data_dir}/logs/mail/mailrelay.log
+directory={data_dir}
+autostart=false
+redirect_stderr=true
+stdout_logfile={data_dir}/logs/mail/mailrelay.log
+stdout_logfile_maxbytes=10MB
+stdout_logfile_backups=10

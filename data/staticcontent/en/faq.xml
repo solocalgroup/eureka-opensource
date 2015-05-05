@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faqs>
+
+<faq>
+<title>The Employee Collaborative Innovation programme</title>
+<content>
+<ol>
+<li><a href="#faq_1_1" onclick="change_visibility('faq_1_1');">Why this approach?</a>
+<div id="faq_1_1" class="faq_hidden">
+The Employee Participative Innovation programme is <strong>1 goal, 2 action levers and 3 objectives:</strong><br/>
+
+<strong>1 GOAL:</strong><br/>
+<p>Eureka lets each of us participate in the Group’s development by proposing innovative ideas, some of which will be selected
+for implementation.</p>
+<p>Each division or subsidiary will regularly ask you to consider a specific question, alone or in a group. These are the
+challenges.</p>
+<p>By giving all employees the ability to meet the Group’s challenges, the entire company moves PagesJaunes forward and builds
+it future!</p>
+
+<strong>2 ACTION LEVERS:</strong><br/>
+<p>Organise a real <strong>network process</strong> with shared ideas, know-how and experiences.</p>
+<p>Develop an <strong>information feedback system</strong> that makes it easy for everyone to contribute through Eureka,
+<strong>an idea posting and sharing platform open to everyone</strong>.</p>
+
+<strong>3 OBJECTIVES:</strong><br/>
+<p><strong>Stimulate</strong> all employees’ initiative and creativity to <strong>submit</strong> ideas that respond to the
+company’s stakes (improve processes, develop new business, customer/user satisfaction, etc.)</p>
+<p><strong>Recognise and reward</strong> the best ideas.</p>
+<p><strong>Transform</strong> the ideas into tangible results.</p>
+</div>
+</li>
+
+
+<li><a href="#faq_1_2" onclick="change_visibility('faq_1_2');">What do we expect from the programme?</a>
+<div id="faq_1_2" class="faq_hidden">
+<p>With the programme we expect <strong>all employees to get involved</strong>, irrespective of their subsidiary, to develop
+innovation in the Group with regard to our organisation, processes, services, products, etc. And even <strong>more
+interaction</strong> between all Group teams, with the implementation of an <strong>innovation</strong> culture in the
+background.</p>
+</div>
+</li>
+
+
+<li><a href="#faq_1_3" onclick="change_visibility('faq_1_3');">What is a challenge?</a>
+<div id="faq_1_3" class="faq_hidden">
+<p>Eureka will be punctuated throughout the year by the challenges the various Divisions and subsidiaries will submit to you.</p>
+<p><strong>A Challenge is a call for ideas on a specific key subject, during a defined lapse of time</strong>. This subject can
+concern the entire PagesJaunes Group or be dedicated to a specific issue encountered by one or more services/entities.</p>
+<p>At the end of the challenge, rewards will be given to the challenge’s best ideas. The authors and winning and short-listed
+ideas will be highlighted and exploited.</p>
+</div>
+</li>
+
+
+<li><a href="#faq_1_4" onclick="change_visibility('faq_1_4');">Ideas, but about what? What is a good idea?</a>
+<div id="faq_1_4" class="faq_hidden">
+<p>The different Divisions and subsidiaries <strong>will regularly send me challenges covering key questions</strong>. The Group
+is counting on us to get mobilised and respond to its stakes.</p>
+<p>The ideas posted on Eureka should serve:</p>
+<p><strong>The Group’s stakes</strong>: customer satisfaction, improve our processes/organisation, develop new user services…</p>
+<p><strong>And/or the company’s core businesses</strong>: technical, commercial, communication, processes or even our daily
+organisation, to cite but these.</p>
+<p>Criteria that can guide you include:</p>
+<ol>
+    <li><strong>NEWNESS: the idea is new</strong>: compared to the existing processes/products/services in the Group or in the
+    market</li>
+    <li><strong>FEASIBILITY: the idea is accompanied by an implementation deliberation / recommendation</strong>. Its use /
+    application in the Group should provide well-argued results.</li>
+    <li><strong>IMPACT: my idea’s implementation should provide corporate-wide or team-wide progress (idea of proximity). This
+    improvement</strong> would be real and measurable (efficiency, savings, quality, image, productivity gains, customer
+    satisfaction, new products, new services, etc.).</li>
+</ol>
+<p><strong>A good idea is not necessarily a big invention</strong>: it can involve a way of simplifying procedures to resolve a
+recurrent problem, avoid expenditures or investments, adapt a good practice seen elsewhere, etc.</p>
+<p>Remember that ideas and comments must be posted in a spirit of building and improving, but also respecting others and
+legality.</p>
+</div>
+</li>
+
+
+<li><a href="#faq_1_5" onclick="change_visibility('faq_1_5');">What isn't a good idea?</a>
+<div id="faq_1_5" class="faq_hidden">
+<ul>
+    <li>A <strong>declaration of a utopian intention</strong> such as “all we need to do” that isn’t accompanied by a
+    consideration of how to implement it: “e.g. buy Google”</li>
+    <li>A <strong>report of a malfunction</strong> that isn’t accompanied by a constructive proposal: “e.g.; the coffee
+    machine always breaks down”</li>
+    <li>A purchase need or <strong>disguised capital expenditure request</strong>: “e.g.; the sales reps would be must more
+    efficient with 2 Blackberries, an unlimited call plan and an ultra light portable computer”</li>
+</ul>
+</div>
+</li>
+
+
+<li><a href="#faq_1_6" onclick="change_visibility('faq_1_6');">What path does an idea follow?</a>
+<div id="faq_1_6" class="faq_hidden">
+<img src="/static/eureka/html/static_edito/faq_1_6-1-en.png" style="float:none;width:647px;"/>
+</div>
+</li>
+
+
+<li><a href="#faq_1_7" onclick="change_visibility('faq_1_7');">How are the best contributors acknowledged?</a>
+<div id="faq_1_7" class="faq_hidden">
+<p><strong>Each time I make a contribution on EUREKA, I earn and accumulate points.</strong></p>
+<p>My counter turns when I submit an idea, comment on an idea, vote, answer a survey or accept a challenge, based on
+a predefined scale.</p>
+
+<style>
+div.points {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+div.points .left {
+    float:left;
+    width:280px;
+}
+
+div.points .right {
+    float:right;
+    width:280px;
+}
+
+.faqBox em {
+    font-style: italic;
+}
+
+.faqBox table {
+    border: 2px solid;
+    border-right: 1px solid;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.faqBox table th {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.faqBox table td {
+    border-top: 1px solid;
+    border-right: 1px solid;
+    padding: 3px;
+}
+
+.faqBox table th,
+.faqBox table td {
+    text-align: center;
+}
+</style>
+
+<div class="points">
+    <div class="left">
+        <table class="nav_points">
+            <tr>
+                <th>Action</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td>
+                    <strong>New connection</strong>
+                    <br/>
+                    <em>(up to one point per day)</em>
+                </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>A vote</strong>
+                    <br/>
+                    <em>(up to 3 points per day)</em>
+                </td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>A comment posted</strong>
+                    <br/>
+                    <em>(up to 2 points per day)</em>
+                </td>
+                <td>1</td>
+            </tr>
+        </table>
+
+        <table class="challenge_points">
+            <tr>
+                <th>Action</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td>First idea published on a Challenge</td>
+                <td>50</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="right">
+        <table class="wf_points">
+            <tr>
+                <th>Progress</th>
+                <th>Stage</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step7.png" />
+                </td>
+                <td>Deployed</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step6.png" />
+                </td>
+                <td>Set up in pilot project</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step5.png" />
+                </td>
+                <td>Being implemented</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step4.png" />
+                </td>
+                <td>Selected</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step3.png" />
+                </td>
+                <td>Recommended</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step2.png" />
+                </td>
+                <td>Being studied</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="state">
+                    <img src="/static/eureka/html/static_edito/step1.png" />
+                </td>
+                <td>Posted and published</td>
+                <td>10</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
+
+<p>When an idea is posted collectively, <strong>the points will be shared equally between the co-authors</strong>, rounded to
+the nearest higher point (e.g. I post an idea with 3 co-authors, we each will receive 4 points when the idea is published).</p>
+</div>
+</li>
+
+
+<li><a href="#faq_1_7bis" onclick="change_visibility('faq_1_7bis');">What do the ranks correspond to?</a>
+<div id="faq_1_7bis" class="faq_hidden">
+
+<p>Depending on my contribution, I accumulate points (see question 7) and therefore I rise in rank. There are 5 ranks:</p>
+<ul>
+    <li style="list-style-type:disc;">Pioneers</li>
+    <li style="list-style-type:disc;">Explorer</li>
+    <li style="list-style-type:disc;">Discoverer</li>
+    <li style="list-style-type:disc;">Visionary</li>
+    <li style="list-style-type:disc;">Brilliant</li>
+
+</ul>
+
+<table>
+<tr style="background-color:#FFFF66"><td>Name</td><td>Number of points *</td></tr>
+<tr style="font-size:140%"><td><b>Brilliant</b></td><td>10 000 et +</td></tr>
+<tr style="font-size:130%"><td><b>Visionary</b></td><td>2 000 à 10 000</td></tr>
+<tr style="font-size:120%"><td><b>Discoverer</b></td><td>200 à 2 000</td></tr>
+<tr style="font-size:110%"><td><b>Explorer</b></td><td>100 à 200</td></tr>
+<tr style="font-size:100%"><td><b>Pioneer</b></td><td>1 à 100</td></tr>
+<tr style="font-size:90%"><td><b>Inactive</b></td><td>0</td></tr>
+</table>
+<p><em>* : This scale may be modified based on the programme’s development.</em></p>
+
+<p>You can find your rank in your title block:</p>
+<p style="text-align:center"><img src="/static/eureka/html/static_edito/faq_1_7b-1-en.png" /></p>
+<p>Or in your profile.</p>
+
+</div>
+</li>
+
+
+<li><a href="#faq_1_8" onclick="change_visibility('faq_1_8');">How can I track and convert my points?</a>
+<div id="faq_1_8" class="faq_hidden">
+<p>My available points and earned points can be viewed in <strong>My Profile</strong>.</p>
+<p><strong>My available points</strong> correspond to the points that I haven’t converted into gifts yet.</p>
+<p><strong>My earned points</strong> correspond to the points that I have accumulated since my first connection.</p>
+<p>When my credit of available points reaches <strong>500 points</strong>, I will be able to convert them into gifts
+twice during the year: in <strong>July/August and in December/January</strong>.</p>
+<p>For reasons of gift request and distribution efficiency, no request will be considered outside of these 2 periods.</p>
+<p>In case of a long absence (sick leave, maternity leave, training, etc.), my points remain earned.</p>
+<p>In the case of leaving the Group, the employee can claim the balance of available points before leaving.  Gifts will be
+delivered in <strong>July/August or December/January, based on the distribution calendar.</strong></p>
+</div>
+</li>
+
+
+<li><a href="#faq_1_9" onclick="change_visibility('faq_1_9');">Who is my Facilitator? What is his role?</a>
+<div id="faq_1_9" class="faq_hidden">
+<p>My <strong>Innovation Facilitator</strong>’s name can be viewed in “<strong>My Profile</strong>.” He is my <strong>special
+contact</strong> to give me information about the programme and to organise Participative Innovation in my entity (my division
+or my subsidiary).</p>
+<p>The Facilitator will <strong>receive my idea first</strong>. If needed, before <strong>publishing it on the site</strong>, he
+may ask me to enrich it to make it stand out more. Once published, he will <strong>send the idea to the Idea developer</strong>
+corresponding to the idea’s theme. He will be responsible for assessing the idea.</p>
+</div>
+</li>
+
+
+<li><a href="#faq_1_10" onclick="change_visibility('faq_1_10');">What is the role of the Expert?</a>
+<div id="faq_1_10" class="faq_hidden">
+<p>Idea developers will be appointed for each challenge launched. Depending on the theme my idea is classified in, it will
+be sent by my Innovation Facilitator to an <strong>Expert</strong> with the necessary <strong>core business
+skills</strong> to <strong>assess it</strong> and pre-select it, if it presents a real step forward for the Group.</p>
+<p>In his assessment work, he can rely on comments from the community of employees and on internal expertise.</p>
+<p>He will assess the potential of my idea, the entity it could be implemented in and the necessary means to implement it.</p>
+<p>He will then send a <strong>pre-selection of the best ideas</strong> to the sponsoring Directors of the challenges.</p>
+<p>He will keep me informed of his decision by email.</p>
+
+</div>
+</li>
+
+<li><a href="#faq_1_11" onclick="change_visibility('faq_1_11');">What is the role of Managers?</a>
+<div id="faq_1_11" class="faq_hidden">
+<p><strong>Managers</strong>, by fostering an open and creative state of mind in their team, are genuine <strong>promoters
+of change</strong>. By involving us in this Participative Innovation programme, they <strong>lead us to be participants in the
+Group’s transformation</strong>.</p>
+<p>The Idea developers can call on them to provide their <strong>open mind</strong> and <strong>expertise</strong> on an idea
+during the assessment phase.</p>
+<p>And of course, they will <strong>promote</strong> the employees and ideas in their team.</p>
+</div>
+</li>
+
+
+<li><a href="#faq_1_12" onclick="change_visibility('faq_1_12');">How can a Eureka challenge sponsored by my management or my
+subsidiary be launched?</a>
+<div id="faq_1_12" class="faq_hidden">
+<p>If I have a good challenge idea that my entity (Division or subsidiary) could send to all Group employees, I can submit it
+to the director of my entity.</p>
+<p><strong>Indeed, challenges are effectively launched at the initiative of entity directors</strong> who want to call on all
+Group employees with regard to <strong>key questions that present a direct stake for the entity</strong>.</p>
+<p><strong>The DRH/IPS team will then get involved to help</strong> the Division or Subsidiary plan the Challenge’s launch,
+gather the names of Idea developers and the selection jury and implement the communication and organisation.</p>
+<p>For any question about launching challenges, contact <a href="mailto:achaintron@pagesjaunes.fr">achaintron@pagesjaunes.fr</a> or <a href="mailto:candriamadison@pagesjaunes.fr">candriamadison@pagesjaunes.fr</a></p>
+</div>
+</li>
+
+<li><a href="#faq_1_13" onclick="change_visibility('faq_1_13');">A few preconceived notions to refute ... with a smile :-)</a>
+<div id="faq_1_13" class="faq_hidden">
+<p><strong>“That’s more work, I’m swamped…”</strong><br/>
+Having ideas is part of everyday life. Thanks to EUREKA, I know where and how to share my ideas with all Group employees. Everyone is invited to comment on them so a process becomes second nature!
+It only takes a few minutes to post an idea on EUREKA. The tool has been designed to use easily and quickly. And the Employee Participative Innovation team will listen to me in order to improve its use. Consequently I don’t hesitate to send in my suggestions.</p>
+
+<p><strong>“Innovation especially concerns marketing and the Internet”</strong><br/>
+Improving one’s work methods, simplifying procedures, etc. improves efficiency and also comprises innovation.
+A “small” idea can become a “big” value for employees and the company if managers, experts and colleagues help enrich it. Together, we are stronger!</p>
+
+<p><strong>“There are procedures that are made to be applied”</strong><br/>
+Exactly! However, the ideas provided by our employees are key to continuously improving our work methods and customer satisfaction. The guidelines can’t take into account all of the realities of implementation in the field: the ideas can help improve them while respecting them.</p>
+</div>
+</li>
+
+</ol>
+
+</content>
+</faq>
+
+<faq>
+<title>The EUREKA site</title>
+<content>
+
+<ol>
+<li><a href="#faq_2_1" onclick="change_visibility('faq_2_1');">How can I submit an idea?</a>
+<div id="faq_2_1" class="faq_hidden">
+I click on the <strong>“Submit an idea”</strong> button in the centre of the homepage.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_1-1-en.png" style="float:none;"/><br/>
+I fill in the <strong>mandatory fields</strong> (identified by an asterisk).<br/>
+In the <strong>Title</strong> field: I summarise my idea in a few words.<br/>
+In the <strong>Challenge</strong> field: I select the challenge I want to participate in. By default, the
+selection is on the current challenge. Comment: if it is a spontaneous idea that doesn’t correspond to a
+challenge, I select “None.”<br/>
+In the <strong>Description</strong> field: I describe my proposal and how my idea will provide progress, an
+improvement or a new feature for the Group or an entity. I describe the means or solutions that I recommend to
+implement this idea.<br/>
+I can <strong>Hide my name</strong>, so my Innovation Facilitator can’t see it. Caution, once my Innovation
+Facilitator has published my idea on the EUREKA site, all employees will be able to see my identity!<br/>
+To promote my idea, I can fill in the <strong>optional fields</strong>.
+In the <strong>Origin</strong> field: I describe how I got the idea (e.g.; I noticed a recurrent problem that
+can be easily resolved or I discovered a new service/product offered by a competitor; a practice implemented in
+another company, etc.).<br/>
+In the <strong>Impact</strong> field: I describe the benefit that implementing my idea could provide (e.g.;
+time savings, improved brand image, additional revenue generated by a new product, etc.).<br/>
+In the <strong>Keywords</strong> field: I enter a few keywords that can make it easier for other employees to
+understand my idea.<br/>
+Once the fields are filled in, <strong>I can Submit the idea</strong>.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_1-2-en.png" style="float:none;"/><br/>
+My idea will be sent to my Innovation Facilitator who, if needed, can ask me to enrich it before it is published
+on the EUREKA site. He will then send it to the Idea developer responsible for assessing it (based on the idea’s
+theme). If I haven’t finished filling in the form, I can <strong>Save it as a Draft</strong>, and finish it later.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_1-3-en.png" style="float:none;"/>
+</div>
+</li>
+
+
+<li><a href="#faq_2_2" onclick="change_visibility('faq_2_2');">How can I revise or complete my idea later?</a>
+<div id="faq_2_2" class="faq_hidden">
+If I haven’t finished filling in the form, I can Save it as a Draft, and finish it later.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_2-1-en.png" style="float:none;"/><br/>
+My idea is automatically placed in the <strong>“My ideas”</strong> tab. To return to it, I click on the
+<strong>“My ideas”</strong> tab and then on the link <strong>“ideas in Draft state.”</strong> By clicking on
+the “Edit” button, I can complete or modify my form. Then I can <strong>“Submit”</strong> it to send it to my
+Innovation Facilitator.
+</div>
+</li>
+
+
+<li><a href="#faq_2_3" onclick="change_visibility('faq_2_3');">How can I search for an idea in EUREKA?</a>
+<div id="faq_2_3" class="faq_hidden">
+I have 3 possibilities:<br/>
+<ul>
+    <li>by clicking on a keyword in the <strong>Tags cloud</strong> at the bottom of the page, in the right block on the homepage,</li>
+    <li>by clicking on a keyword in the <strong>search engine</strong> at the top right of the screen,</li>
+    <li>by clicking on a <strong>theme</strong> on the homepage, in the right block</li>
+</ul>
+</div>
+</li>
+
+<li><a href="#faq_2_4" onclick="change_visibility('faq_2_4');">How can I stay informed of news on the EUREKA site?</a>
+<div id="faq_2_4" class="faq_hidden">
+<ul>
+    <li>I can consult the <strong>latest ideas published</strong> on the homepage</li>
+    <li>I can consult the most popular ideas in the <strong>“The most voted”</strong> tab</li>
+    <li>I can consult the <strong>“most commented on”</strong> ideas in the tab of the same name</li>
+    <li>I can consult the latest <strong>news</strong> (in the block in the lower left)</li>
+</ul>
+</div>
+</li>
+
+<li><a href="#faq_2_5" onclick="change_visibility('faq_2_5');">How can I consult or modify my profile?</a>
+<div id="faq_2_5" class="faq_hidden">
+<img src="/static/eureka/html/static_edito/faq_2_5-1-en.png" style="float:none;"/><br/>
+<strong>My profile</strong> is visible to the community of Group employees. The information is optional and
+declarative. I can <strong>complete my personal information</strong> (telephone number, my skills, my expertises,
+my hobbies, etc.) to make it easier to connect with other Group employees.<br/>
+I can validate my changes by clicking on the <strong>“Validate the profile”</strong> button.<br/>
+But I can also consult <strong>my number of accumulated points, my status</strong> in EUREKA, <strong>the ideas I
+have already submitted</strong> and <strong>the name of my Innovation Facilitator</strong>.<br/>
+It is friendlier with <strong>my photo!</strong> I can search for a photo that I want to download by clicking on
+<strong>“Browse”</strong> and then <strong>“Submit the profile.”</strong> Pay attention nevertheless to rights, if I
+decide to post an image online that doesn’t belong to me.<br/>
+</div>
+</li>
+
+<li><a href="#faq_2_6" onclick="change_visibility('faq_2_6');">How can I be informed of my ideas' treatment?</a>
+<div id="faq_2_6" class="faq_hidden">
+<ul>
+    <li>I will receive a <strong>notification by email</strong> each time my idea clears a step (e.g.; idea published by my Innovation Facilitator, idea being assessed by an Idea developer, etc.).</li>
+    <li>I can also find all of the ideas I have saved and posted in the <strong>“My ideas”</strong> tab.</li>
+</ul>
+
+<table class="wf_steps">
+    <tr>
+        <th>Progress</th>
+        <th>Stage</th>
+    </tr>
+    <tr>
+        <td><img src="/static/eureka/html/static_edito/step7.png" /></td>
+        <td>Deployed</td>
+    </tr>
+    <tr>
+        <td><img src="/static/eureka/html/static_edito/step6.png" /></td>
+        <td>Set up in pilot project</td>
+    </tr>
+    <tr>
+        <td><img src="/static/eureka/html/static_edito/step5.png" /></td>
+        <td>Being implemented</td>
+    </tr>
+    <tr>
+        <td><img src="/static/eureka/html/static_edito/step4.png" /></td>
+        <td>Selected</td>
+    </tr>
+    <tr>
+        <td><img src="/static/eureka/html/static_edito/step3.png" /></td>
+        <td>Recommended</td>
+    </tr>
+    <tr>
+        <td><img src="/static/eureka/html/static_edito/step2.png" /></td>
+        <td>Being studied</td>
+    </tr>
+    <tr>
+        <td><img src="/static/eureka/html/static_edito/step1.png" /></td>
+        <td>Posted and published</td>
+    </tr>
+</table>
+</div>
+</li>
+
+<li><a href="#faq_2_7" onclick="change_visibility('faq_2_7');">What should I do if my Facilitator sends me an idea to complete it?</a>
+<div id="faq_2_7" class="faq_hidden">
+
+<strong>In the email</strong> sent by my Innovation Facilitator, I can <strong>click on the link</strong> and go directly to the
+idea to complete.<br/>
+I can also go directly to the <strong>“My ideas”</strong> tab, where I will find a list of ideas to complete or modify under
+<strong>“idea in state of: Normalisation by author.”</strong><br/>
+By clicking on the <strong>“Edit the idea”</strong> button, I can complete or modify my idea.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_7-1-en.png" style="float:none;"/><br/>
+
+Then I can click on the <strong>“Submit”</strong> button to send the idea to my Innovation Facilitator.<br/>
+Small tip: I fill in the form as completely as possible to highlight my idea.<br/>
+</div>
+</li>
+
+<li><a href="#faq_2_8" onclick="change_visibility('faq_2_8');">How can I delete a comment?</a>
+<div id="faq_2_8" class="faq_hidden">
+At any time I can <strong>delete any comment I have left</strong> by clicking on the <strong>“X”</strong> icon at the top of each of my comments.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_8-1-en.png" style="float:none;"/><br/>
+At any time I can <strong>report an abuse in a comment</strong>.<br/>
+By clicking on the <strong>“!”</strong> icon at the top of the comment, the text will be automatically rendered invisible for other employees. The IPS team will be informed and will analyse this comment.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_8-2-en.png" style="float:none;"/>
+</div>
+</li>
+
+<li><a href="#faq_2_9" onclick="change_visibility('faq_2_9');">How can I propose an idea to improve use of the EUREKA site?</a>
+<div id="faq_2_9" class="faq_hidden">
+The IPS team wants to involve me in co-constructing the EUREKA site and in designing the Group’s Employee Participative Innovation programme. I don’t hesitate to send it my suggestions for improvement by filling in the form:<br/>
+<img src="/static/eureka/html/static_edito/faq_2_9-1-en.png" style="float:none;"/>
+</div>
+</li>
+
+<li><a href="#faq_2_10" onclick="change_visibility('faq_2_10');">My question isn't shown in this list</a>
+<div id="faq_2_10" class="faq_hidden">
+I contact my <strong>Innovation Facilitator</strong>, whose assignment includes coordinating my entity by providing <strong>advice
+and a sympathetic ear.</strong><br/>
+Otherwise, I can also fill in the contact form and send it to the IPS (Employee Participative Innovation) team.<br/>
+<img src="/static/eureka/html/static_edito/faq_2_10-1-en.png" style="float:none;"/>
+</div>
+</li>
+
+</ol>
+
+</content>
+</faq>
+
+</faqs>
+

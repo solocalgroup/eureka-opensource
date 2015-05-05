@@ -1,0 +1,106 @@
+[application]
+path = app eureka
+name = eureka
+debug = off
+redirect_after_post = on
+as_root = on
+
+[database]
+activated = on
+uri = sqlite:///$here/../data/eureka.db
+metadata = eureka.domain.models:__metadata__
+populate = eureka.domain.populate:populate
+debug = off
+pool_recycle = 3600
+
+[mail]
+activated = off
+smtp_host = localhost
+smtp_port = 25
+security_sender = support@localhost
+info_sender = info@localhost
+support_sender = support@localhost
+ideasubmit_sender = info@localhost
+suggest_recipients = 'support@localhost',
+dsig_recipients = 'info@localhost',
+moderation_recipients = 'moderator@localhost',
+
+[security]
+[[password]]
+min_length = 4
+nb_cases = 1
+default_password = eureka
+
+[misc]
+tutorial_video_url =
+tutorial_splash_url =
+attachments_max_size = 500  # in kilobytes
+
+[html]
+use_combined_css = off
+use_combined_js = off
+
+[filesystem]
+data_dir = $here/../
+
+[logging]
+[[loggers]]
+keys=desktop_batch
+
+[[handlers]]
+keys=brief_console
+
+[[formatters]]
+keys=brief
+
+[[logger]]  # application logger
+level=INFO
+
+[[logger_desktop_ui]]
+level=DEBUG
+handlers=app_$name
+qualname=nagare.application.$name.eureka.ui
+propagate=0
+
+[[logger_desktop_infrastructure]]
+level=DEBUG
+handlers=app_$name
+qualname=nagare.application.$name.eureka.infrastructure
+propagate=0
+
+[[logger_desktop_timings]]
+level=DEBUG
+handlers=app_$name
+qualname=nagare.application.$name.eureka.infrastructure.timings
+propagate=0
+
+[[logger_desktop_event_management]]
+level=DEBUG
+handlers=app_$name
+qualname=nagare.application.$name.eureka.infrastructure.event_management
+propagate=0
+
+[[logger_desktop_mail]]
+level=DEBUG
+handlers=app_$name
+qualname=nagare.application.$name.eureka.infrastructure.mail
+propagate=0
+
+[[logger_desktop_domain]]
+level=DEBUG
+handlers=app_$name
+qualname=nagare.application.$name.eureka.domain
+propagate=0
+
+[[logger_desktop_batch]]
+handlers=brief_console
+qualname=nagare.application.$name.eureka.batch
+propagate=0
+
+[[handler_brief_console]]
+formatter=brief
+class=StreamHandler
+args=(sys.stderr,)
+
+[[formatter_brief]]
+format=%(message)s  # only the message is shown

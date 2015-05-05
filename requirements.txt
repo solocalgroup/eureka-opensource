@@ -1,0 +1,17 @@
+nagare[database,i18n]==0.4.1
+supervisor==3.0
+meld3==0.6.8
+ConfigObj
+
+Pillow>=2.6
+reportlab==2.5
+xlwt==0.7.4
+pycrypto==2.6.1
+yuicompressor==2.4.6.1
+minify==0.1.4
+ecdsa==0.11
+paramiko==1.12.2
+
+pysqlite>=2.6.3
+solrpy>=0.9.6
+Whoosh>=2.6

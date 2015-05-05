@@ -1,0 +1,19 @@
+#!/bin/bash
+app_dir={app_dir}
+data_dir={data_dir}
+backup_dir={backup_dir}
+name={name}
+backup_file=$backup_dir/{name}-backup-`date +%Y-%m-%d-%H-%M-%S`.tgz
+tmp_dir=$(mktemp -d)
+
+pushd $app_dir
+cp $name.db $tmp_dir/$name.db
+
+pushd $data_dir
+tar czf $tmp_dir/$name-data.tgz articles-thumbnails/* attachments/* gallery/* improvements/* profile-photo/* profile-thumbnails/*
+
+pushd $tmp_dir
+tar czf $backup_file *
+
+rm -rf $tmp_dir
+echo $backup_file

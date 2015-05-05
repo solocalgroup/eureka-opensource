@@ -1,0 +1,18 @@
+#!/bin/bash
+app_dir={app_dir}
+data_dir={data_dir}
+backup_file={backup_file}
+name={name}
+
+tmp_dir=$(mktemp -d)
+
+pushd $tmp_dir
+tar xf $backup_file
+
+pushd $app_dir
+cp $tmp_dir/$name.db $name.db
+
+pushd $data_dir
+tar xf $tmp_dir/$name-data.tgz
+
+rm -rf $tmp_dir

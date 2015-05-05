@@ -1,0 +1,64 @@
+<VirtualHost *:80>
+
+    ServerName {apache_servername}
+    ServerAdmin admin@{apache_servername}
+    ServerAlias {apache_alias_servername}
+
+    # SSLEngine On
+
+    DocumentRoot {data_dir}
+    CustomLog {data_dir}/logs/httpd/access_log combined
+    ErrorLog {data_dir}/logs/httpd/error_log
+
+    FastCGIExternalServer {data_dir}/fcgi -host {fastcgi_host}:{fastcgi_port} -idle-timeout 180
+
+    Header set X-UA-Compatible "IE=edge"
+
+    ExpiresActive On
+
+    RewriteEngine On
+    RewriteRule ^/static/nagare/(.*)$ {nagare_egg_dir}/static/$1 [L]
+    RewriteRule ^/static/eureka/(.*)$ {eureka_os_egg_dir}/static/$1 [L]
+
+    RewriteRule ^(?:/mobile)?/board/(.*)$ {data_dir}/board/$1 [L]
+    RewriteRule ^(?:/mobile)?/profile-photo/(.*)$ {data_dir}/profile-photo/$1 [L]
+    RewriteRule ^(?:/mobile)?/profile-thumbnails/(.*)$ {data_dir}/profile-thumbnails/$1 [L]
+    RewriteRule ^(?:/mobile)?/attachments/(.*)$ {data_dir}/attachments/$1 [L]
+    RewriteRule ^(?:/mobile)?/gallery/(.*)$ {data_dir}/gallery/$1 [L]
+    RewriteRule ^(?:/mobile)?/articles-thumbnails/(.*)$ {data_dir}/articles-thumbnails/$1 [L]
+    RewriteRule ^/webmail/(.*)$ /usr/share/roundcubemail/$1 [L]
+
+    RewriteCond %{{REQUEST_URI}} !^/MSOffice(.*)
+    RewriteCond %{{REQUEST_URI}} !^/_vti_bin(.*)
+    RewriteRule ^/(.*)$ {data_dir}/fcgi/$1 [QSA,L]
+
+    <Location />
+        # Apache 2.4 directives
+        Require all granted
+
+        # Apache 2.2 directives
+        Order allow,deny
+        Allow from all
+    </Location>
+
+    <Location /static>
+        SetOutputFilter DEFLATE
+        BrowserMatch ^Mozilla/4 gzip-only-text/html
+        BrowserMatch ^Mozilla/4\.0[678] no-gzip
+        BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+        SetEnvIfNoCase Request_URI \
+        \.(?:gif|jpe?g|png|swf|flv)$ no-gzip dont-vary
+        Header append Vary User-Agent env=!dont-vary
+    </Location>
+
+    <FilesMatch "\.(gif|png|jpg|jpeg|swf|flv|ico)$">
+        ExpiresDefault "access plus 10 years"
+        Header append Cache-Control "public"
+    </FilesMatch>
+
+    <FilesMatch "\.(js|css)$">
+        ExpiresDefault A1800
+        Header append Cache-Control "proxy-revalidate"
+    </FilesMatch>
+
+</VirtualHost>
