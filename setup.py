@@ -62,13 +62,13 @@ def get_requirements():
 
 setup(
     name='eureka-opensource',
-    version='1.0.0',
-    author='Net-ng',
-    author_email='contact@net-ng.com',
+    version='1.0.1',
+    author='Solocal Group',
+    author_email='eureka@solocal.com',
     description='Innovative think tank web application',
-    license='Proprietary',
+    license='CeCILL',
     keywords='innovation,web,application',
-    url='http://www.net-ng.com/',
+    url='https://eureka-opensource.solocalgroup.com',
     packages=find_packages(),
     include_package_data=True,
     data_files=find_data_files('data')
