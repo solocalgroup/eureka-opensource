@@ -223,8 +223,8 @@ Contributions in the form of pull requests are always welcome. To do so, these c
 
 So do not hesitate to fork the main repository and make pull requests!
 
-.. _our Github repository: http://www.github.com/eureka-open
-.. _the Bitbucket one: https://bitbucket.org/eureka-open
+.. _our Github repository: https://github.com/solocalgroup/eureka-opensource
+.. _the Bitbucket one: https://bitbucket.org/solocalgroup/eureka-opensource
 
 III.3 Coding style
 ------------------
