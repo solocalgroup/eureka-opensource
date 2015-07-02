@@ -37,7 +37,7 @@
 import pkg_resources
 
 
-_distribution = pkg_resources.get_distribution(__package__)
+_distribution = pkg_resources.get_distribution('eureka-opensource')
 _requirement = _distribution.as_requirement()
 
 name = _distribution.project_name  # distribution name (i.e. egg name)

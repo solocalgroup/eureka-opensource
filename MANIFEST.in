@@ -1,0 +1,8 @@
+graft static
+graft conf
+graft data
+include LICENSE_EN.txt
+include LICENSE_FR.txt
+include README.rst
+include VERSION.txt
+include requirements.txt
