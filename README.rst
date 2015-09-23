@@ -50,8 +50,8 @@ run::
 
     $ python setup.py install
 
-.. _compressed archive from PyPI: https://pypi.python.org/pypi/eureka-open
-.. _from Github: http://www.github.com/eureka-open
+.. _compressed archive from PyPI: https://pypi.python.org/pypi/eureka-opensource
+.. _from Github: https://github.com/solocalgroup/eureka-opensource
 
 I.5 Database creation
 ---------------------

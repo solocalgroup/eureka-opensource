@@ -12,6 +12,6 @@ minify==0.1.4
 ecdsa==0.11
 paramiko==1.12.2
 
-pysqlite>=2.6.3
+pysqlite>=2.6.3,<2.8.0
 solrpy>=0.9.6
 Whoosh>=2.6
