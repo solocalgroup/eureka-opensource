@@ -50,6 +50,18 @@ from eureka.infrastructure.users import get_default_users
 from eureka.pkg import resource_filename, resource_stream
 from nagare.admin.util import read_application_options
 from nagare.database import session
+from nagare.i18n import _L
+
+
+# Help Babel's message extraction
+IMPROVEMENT_DOMAINS = (
+    _L('SITE_PORTAL_IMPROVEMENT_DOMAIN'),
+    _L('DESIGN_IMPROVEMENT_DOMAIN'),
+    _L('COMMUNICATION_IMPROVEMENT_DOMAIN'),
+    _L('SITE_FEATURES_IMPROVEMENT_DOMAIN'),
+    _L('POLL_IMPROVEMENT_DOMAIN'),
+    _L('OTHER_IMPROVEMENT_DOMAIN'),
+)
 
 
 def populate_organization_types(types):

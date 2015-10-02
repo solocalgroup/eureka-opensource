@@ -69,6 +69,10 @@ class StatisticsService(Unpicklable):
     """
 
     def __init__(self):
+        from eureka.domain.repositories import (
+            CommentRepository, IdeaRepository,
+            UserRepository, VoteIdeaRepository
+        )
         self.user_repository = UserRepository()
         self.idea_repository = IdeaRepository()
         self.vote_idea_repository = VoteIdeaRepository()

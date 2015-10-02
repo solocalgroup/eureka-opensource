@@ -48,7 +48,6 @@ from eureka.domain.models import (CommentData, DomainData, IdeaData,
 from eureka.domain.repositories import (ChallengeRepository, IdeaRepository,
                                         WFCommentRepository)
 from eureka.domain.services import get_workflow, StatisticsService
-from eureka.domain.user_groups import AllUnitsGroups
 from eureka.infrastructure import event_management, validators
 from eureka.infrastructure.content_types import excel_response
 from eureka.infrastructure.tools import group_as_dict, percentage
@@ -220,23 +219,6 @@ class Dashboard(object):
                                              _(u'Others')])
         return chart.get_png()
 
-    def get_ideas_count_by_entity(self):
-        statistics_service = StatisticsService()
-        challenges = list(ChallengeRepository().get_all()) + [None]
-        results = []
-        for group in AllUnitsGroups:
-            name = group.name
-            workforce = len(group.users)
-            for challenge in challenges:
-                total_ideas, nb_authors = statistics_service.get_users_statistics_on_ideas(
-                    tuple(group.users),
-                    challenge=challenge)
-                authors_percentage = percentage(nb_authors, workforce)
-
-                results.append((name, workforce, challenge, total_ideas,
-                                nb_authors, authors_percentage))
-        return results
-
     def get_active_users_by_entity(self):
         q = session.query(
             UserData.corporation_id.label('corporation_id'),
@@ -358,15 +340,6 @@ class Dashboard(object):
 
         # Results sorted by descending ratio
         return sorted(r, key=lambda row: row[5], reverse=True)
-
-    def get_status_by_entity(self):
-        statistics_service = StatisticsService()
-        results = []
-        for group in AllUnitsGroups:
-            statistics = statistics_service.get_users_points_statistics(
-                group.users)
-            results.append((group.name, statistics))
-        return results
 
     def get_latecomer_fi(self, n_days=7):
         n_days_ago = datetime.now() - timedelta(days=n_days)
