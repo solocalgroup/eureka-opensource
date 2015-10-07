@@ -62,7 +62,7 @@ def get_requirements():
 
 setup(
     name='eureka-opensource',
-    version='1.0.1',
+    version='1.0.2rc1',
     author='Solocal Group',
     author_email='eureka@solocal.com',
     description='Innovative think tank web application',
