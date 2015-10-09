@@ -50,6 +50,7 @@ from eureka.ui.common.charts import ColorChooser
 from eureka.ui.common.yui2 import Calendar, ColumnDefinition, TableEnhancement
 from eureka.ui.desktop.dashboard import Dashboard, IdeasOnAlert, IdeasProgress
 from eureka.ui.desktop.idea import Idea, IdeaPager, IdeaPagerBox
+from eureka.ui.desktop.pager import InfinitePager
 from eureka.ui.desktop.user import UserPager
 from nagare import component, presentation
 from nagare.i18n import _, format_datetime
@@ -258,7 +259,7 @@ def render_ideas_on_alert_dashboard(self, h, comp, *args):
     def create_idea_box(idea_ids, page_title=_(u'Ideas on alert')):
         query = lambda: IdeaRepository().get_by_ids(idea_ids)
         pager = IdeaPager(self.parent, query)
-        return IdeaPagerBox(pager, model='simple', title=page_title,
+        return IdeaPagerBox(InfinitePager(component.Component(pager, model='ideas-list')), model='simple', title=page_title,
                             ok_button=_(u'Back to the dashboard'))
 
     self.ideas_on_alert.on_answer(
