@@ -186,14 +186,18 @@ class Dashboard(object):
         q = q.filter(StateData.label.in_(workflow.get_approved_states() +
                                          workflow.get_refused_states()))
         q = q.group_by(DomainData.id, StateData.label)
+
+        domains_i18n = {d.label: d.i18n_label for d in DomainData.query}
+
         res = {}
         for elt in q:
+            label = domains_i18n[elt.label]
             if elt.label not in res:
-                res[elt.label] = [0, 0]
+                res[label] = [0, 0]
             if elt.state == workflow.WFStates.DI_APPROVED_STATE:
-                res[elt.label][0] = int(elt.count)
+                res[label][0] = int(elt.count)
             else:
-                res[elt.label][1] = int(elt.count)
+                res[label][1] = int(elt.count)
         return res
 
     def get_ideas_count_by_domain_state_chart(self, width, height):
@@ -205,7 +209,7 @@ class Dashboard(object):
             domains_sums[domain] = int(nb)
 
         for label, vals in self.get_ideas_count_by_domain_state().items():
-            labels.append(_(label))
+            labels.append(label)
             values[0].append(vals[0])
             values[1].append(vals[1])
             values[2].append(domains_sums.get(label) - vals[0] - vals[1])
