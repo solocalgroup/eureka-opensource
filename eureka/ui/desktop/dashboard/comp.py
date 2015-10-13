@@ -35,6 +35,7 @@
 # =-
 
 import cStringIO as StringIO
+import collections
 import itertools
 import operator
 from datetime import datetime, timedelta
@@ -178,26 +179,21 @@ class Dashboard(object):
         workflow = get_workflow()
         q = session.query(
             DomainData.id,
-            DomainData.label,
-            func.count(IdeaData.id).label('count'),
-            StateData.label.label('state'))
+            DomainData.i18n_label_column(),
+            func.count(IdeaData.id),
+            StateData.label)
         q = q.outerjoin(DomainData.ideas).outerjoin(IdeaData.wf_context)
         q = q.outerjoin(IdeaWFContextData.state)
         q = q.filter(StateData.label.in_(workflow.get_approved_states() +
                                          workflow.get_refused_states()))
         q = q.group_by(DomainData.id, StateData.label)
 
-        domains_i18n = {d.label: d.i18n_label for d in DomainData.query}
-
-        res = {}
-        for elt in q:
-            label = domains_i18n[elt.label]
-            if elt.label not in res:
-                res[label] = [0, 0]
-            if elt.state == workflow.WFStates.DI_APPROVED_STATE:
-                res[label][0] = int(elt.count)
+        res = collections.defaultdict(lambda: [0, 0])
+        for domain_id, domain_label, count, state in q:
+            if state == workflow.WFStates.DI_APPROVED_STATE:
+                res[domain_label][0] = int(count)
             else:
-                res[label][1] = int(elt.count)
+                res[domain_label][1] = int(count)
         return res
 
     def get_ideas_count_by_domain_state_chart(self, width, height):

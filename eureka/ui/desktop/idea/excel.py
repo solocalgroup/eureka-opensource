@@ -103,7 +103,7 @@ def export(idea_ids, permission=None, filename_prefix='export'):
         Direction.label.label('direction'),
         Service.label.label('service'),
         Site.label.label('site'),
-        DomainData.label.label('domain'),
+        DomainData.i18n_label_column().label('domain'),
         FIUser.uid.label('fi_uid'),
         FIUser.firstname.label('fi_firstname'),
         FIUser.lastname.label('fi_lastname'),

@@ -43,7 +43,7 @@ import random
 import re
 import string
 from datetime import datetime, timedelta
-
+from nagare import i18n
 from elixir import (Boolean, ColumnProperty, DateTime, Entity, Field, Float,
                     Integer, ManyToMany, ManyToOne, OneToMany, OneToOne,
                     options_defaults, Unicode, UnicodeText, using_options)
@@ -1760,6 +1760,16 @@ class DomainData(Entity, Unpicklable):
         available_langs = [code for code, __ in available_locales]
         lang = lang if lang in available_langs else 'en'
         return getattr(self, '%s_label' % lang)
+
+    @classmethod
+    def i18n_label_column(cls):
+        """
+        Return the label's column corresponding to the current locale
+        """
+        lang = i18n.get_locale().language
+        available_langs = [code for code, __ in available_locales]
+        lang = lang if lang in available_langs else 'en'
+        return getattr(cls, '%s_label' % lang)
 
 
 class RoleType(Enum):
