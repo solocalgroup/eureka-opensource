@@ -6,7 +6,6 @@ I.1 Stackless Python installation
 
 Eureka open is a solution that requires a custom Python implementation called `Stackless Python`_ (version 2.7.X). In order to install it, you can do it via the sources via the following commands::
 
-    $ mkdir <STACKLESS_DIR>
     $ wget http://www.stackless.com/binaries/stackless-278-export.tar.bz2
     $ tar xf stackless-278-export.tar.bz2
     $ ./configure --prefix=<STACKLESS_DIR> && make -j3 all && make install
@@ -28,18 +27,9 @@ Note: you can also find some more details on how to install Stackless Python on 
 I.3 Eureka installation
 -----------------------
 
-First, you can create you project folder::
+You can create our virtualenv by doing::
 
-    $ mkdir -p <EUREKA_DIR>
-
-Then, you can create our virtualenv by doing::
-
-    $ cd <EUREKA_DIR>
-    $ <STACKLESS_DIR>/bin/virtualenv .
-
-As a pre-requisite, you then need to install `ez_setup` as followed::
-
-    $ <EUREKA_DIR>/bin/easy_install ez_setup
+    $ <STACKLESS_DIR>/bin/virtualenv <EUREKA_DIR>
 
 You can finally install Eureka open with ``easy_install``::
 
