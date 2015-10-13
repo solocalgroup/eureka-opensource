@@ -49,10 +49,10 @@ def find_data_files(top):
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join(here, 'VERSION.txt'), encoding='utf-8') as f:
+with open(os.path.join(here, 'VERSION.txt')) as f:
     version = f.read().strip()
 
-with open(os.path.join(here, 'requirements.txt'), encoding='utf-8') as f:
+with open(os.path.join(here, 'requirements.txt')) as f:
     requirements = filter(None, f.read().splitlines())
 
 setup(
