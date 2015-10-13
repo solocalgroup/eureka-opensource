@@ -33,12 +33,12 @@ You can create our virtualenv by doing::
 
 You can finally install Eureka open with ``easy_install``::
 
-    $ easy_install eureka-opensource
+    $ <EUREKA_DIR>/bin/easy_install eureka-opensource
 
 Or download the `compressed archive from PyPI`_ or `from Github`_, extract it, and inside it
 run::
 
-    $ python setup.py install
+    $ <EUREKA_DIR>/bin/python setup.py install
 
 .. _compressed archive from PyPI: https://pypi.python.org/pypi/eureka-opensource
 .. _from Github: https://github.com/solocalgroup/eureka-opensource
