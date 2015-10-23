@@ -811,7 +811,7 @@ class SortFieldFactory(object):
 
     def _create_for_icon(self, h, pager):
 
-        if pager._order.startswith(self.order):
+        if pager._order and pager._order.startswith(self.order):
             if pager._order.endswith('_desc'):
                 cls = 'active icon-down'
                 tt = self.hint_asc

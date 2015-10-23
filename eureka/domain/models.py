@@ -43,7 +43,7 @@ import random
 import re
 import string
 from datetime import datetime, timedelta
-
+from nagare import i18n
 from elixir import (Boolean, ColumnProperty, DateTime, Entity, Field, Float,
                     Integer, ManyToMany, ManyToOne, OneToMany, OneToOne,
                     options_defaults, Unicode, UnicodeText, using_options)
@@ -1761,6 +1761,16 @@ class DomainData(Entity, Unpicklable):
         lang = lang if lang in available_langs else 'en'
         return getattr(self, '%s_label' % lang)
 
+    @classmethod
+    def i18n_label_column(cls):
+        """
+        Return the label's column corresponding to the current locale
+        """
+        lang = i18n.get_locale().language
+        available_langs = [code for code, __ in available_locales]
+        lang = lang if lang in available_langs else 'en'
+        return getattr(cls, '%s_label' % lang)
+
 
 class RoleType(Enum):
     Facilitator = u'facilitator'
@@ -2081,66 +2091,6 @@ class GalleryImageTagData(Entity, Unpicklable):
 
     name = Field(Unicode(100), nullable=False, index=True, unique=True)
     images = ManyToMany('GalleryImageData', inverse='tags')
-
-
-# ------------------ Not persistent entities ------------------
-class UserGroup(object):
-    """
-    Represents a group of users. Useful for classifying users into categories
-    (when rendering user related
-    aggregate information) or for applying changes in batches.
-    """
-
-    def __init__(self, name, organizations=None, specific_users=None):
-        from eureka.domain.repositories import UserRepository
-        super(UserGroup, self).__init__()
-        self.name = name
-        self.organizations = organizations or []
-        self.specific_users = specific_users or []
-        self.user_repository = UserRepository()
-        self._users = None
-
-    # logger
-    @property
-    def log(self):
-        return log.get_logger('.' + __name__)
-
-    @property
-    def users(self):
-        if self._users is None:
-            self._users = self._find_users()
-        return self._users
-
-    def _find_users(self):
-        users = []
-        self.log.debug('Fetching users in group %s' % self.name)
-        for organization in self.organizations:
-            users.extend(self._find_users_by_organization(organization))
-        for user in self.specific_users:
-            users.append(self._find_user_by_uid(user))
-        return users
-
-    def apply(self, func):
-        """
-        Apply a function to each user. The function will be called
-        with a user as parameter.
-        """
-        for user in self.users:
-            func(user)
-
-    def _find_user_by_uid(self, user_uid):
-        user = UserData.get_by_uid(user_uid)
-        if not user:
-            self.log.warning("No user found with the login %s" % user_uid)
-        return user
-
-    def _find_users_by_organization(self, organization_tuple):
-        # find the corresponding users
-        users = self.user_repository.get_by_organization(*organization_tuple)
-        if not users:
-            self.log.warning(
-                "No user found in the organization %s" % organization_tuple)
-        return users
 
 
 # reminders

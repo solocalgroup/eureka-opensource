@@ -1,2 +1,5 @@
 .idea
-
+dist
+eureka_opensource.egg-info
+.cache
+*.pyc

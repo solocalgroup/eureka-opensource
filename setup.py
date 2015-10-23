@@ -33,11 +33,8 @@
 # The fact that you are presently reading this means that you have had
 # knowledge of the CeCILL license and that you accept its terms.
 # =-
-
 import os
-
 from setuptools import setup, find_packages
-from setuptools import Distribution
 
 
 def find_data_files(top):
@@ -50,19 +47,17 @@ def find_data_files(top):
 
     return result
 
+here = os.path.abspath(os.path.dirname(__file__))
 
-def get_requirements():
-    requirements_filepath = os.path.join(os.path.dirname(__file__),
-                                         "requirements.txt")
-    with open(requirements_filepath) as reqs:
-        requirements = tuple(r.strip() for r in reqs.readlines() if r.strip())
+with open(os.path.join(here, 'VERSION.txt')) as f:
+    version = f.read().strip()
 
-    return requirements
-
+with open(os.path.join(here, 'requirements.txt')) as f:
+    requirements = filter(None, f.read().splitlines())
 
 setup(
     name='eureka-opensource',
-    version='1.0.1',
+    version=version,
     author='Solocal Group',
     author_email='eureka@solocal.com',
     description='Innovative think tank web application',
@@ -77,7 +72,7 @@ setup(
     + find_data_files('contrib')
     + find_data_files(os.path.join('eureka', 'tests', 'data')),  # Required to run tests
     zip_safe=False,
-    install_requires=get_requirements(),
+    install_requires=requirements,
     test_suite='eureka.tests',
     entry_points="""
     [nagare.applications]

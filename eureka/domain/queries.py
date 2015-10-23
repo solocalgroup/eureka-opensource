@@ -184,7 +184,7 @@ def get_search_results(type, pattern, query, id_field, max_results=200,
 def get_ideas_count_by_domain():
     return session.query(
         DomainData.id,
-        DomainData.label,
+        DomainData.i18n_label_column(),
         func.count(IdeaData.id)
     ).outerjoin(IdeaData).group_by(DomainData.id)
 

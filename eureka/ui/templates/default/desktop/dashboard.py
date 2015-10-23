@@ -50,6 +50,7 @@ from eureka.ui.common.charts import ColorChooser
 from eureka.ui.common.yui2 import Calendar, ColumnDefinition, TableEnhancement
 from eureka.ui.desktop.dashboard import Dashboard, IdeasOnAlert, IdeasProgress
 from eureka.ui.desktop.idea import Idea, IdeaPager, IdeaPagerBox
+from eureka.ui.desktop.pager import InfinitePager
 from eureka.ui.desktop.user import UserPager
 from nagare import component, presentation
 from nagare.i18n import _, format_datetime
@@ -209,74 +210,6 @@ def render_votes_by_entity(self, h, *args):
     return h.root
 
 
-@presentation.render_for(Dashboard, model='status_by_entity')
-def render_status_by_entity(self, h, comp, *args):
-    h << h.h1(_(u'Status by entity'))
-    status_levels = UserData.StatusLevelLabels
-    status_by_entity = self.get_status_by_entity()
-
-    def create_user_box(user_uids, title):
-        query = lambda: UserRepository().get_by_uids(user_uids)
-        pager = UserPager(self.parent, query)
-        return PagerBox(pager, title='Users',
-                        ok_button=_(u'Back to the dashboard'))
-
-    with h.div:  # div required for progressive enhancement
-        with h.table(id='status_by_entity', class_='datatable'):
-            with h.thead:
-                with h.tr:
-                    h << h.th(_(u'Unit'))
-                    for level in status_levels:
-                        h << h.th(_(level))
-                    h << h.th(_(u'Active %'))
-
-            with h.tfoot:
-                with h.tr(class_="totals"):
-                    h << h.td(_(u"Totals"))
-                    total = 0
-                    for level in status_levels:
-                        value = sum(len(statistics.get(level, []))
-                                    for _, statistics in status_by_entity)
-                        h << h.td(value)
-                        total += value
-                    inactive_users = sum(
-                        len(statistics.get('status_level0', []))
-                        for _, statistics in status_by_entity)
-                    h << h.td("%.2f %%" % percentage(
-                        total - inactive_users, total))
-
-            with h.tbody:
-                for entity, statistics in status_by_entity:
-                    with h.tr:
-                        h << h.td(entity)
-                        total = 0
-                        for level in status_levels:
-                            users = [user.uid for user
-                                     in statistics.get(level, [])]
-                            with h.td:
-                                title = _(u'%s - The %ss') % (entity, _(level))
-                                value = len(users)
-                                if value > 0:
-                                    h << h.a(value).action(
-                                        lambda users=users, title=title:
-                                        comp.call(create_user_box(users, title)))
-                                else:
-                                    h << value
-                                total += value
-
-                        inactive_users = len(statistics.get('status_level0', []))
-                        h << h.td(
-                            "%.2f %%" % percentage(
-                                total - inactive_users, total))
-
-    col_types = ('string', 'number', 'number', 'number',
-                 'number', 'number', 'number', 'percentage')
-    col_defs = [ColumnDefinition(type) for type in col_types]
-    h << component.Component(TableEnhancement('status_by_entity', col_defs, -21)).render(h)
-
-    return h.root
-
-
 @presentation.render_for(Dashboard, model='comments_by_entity')
 def render_comments_by_entity(self, h, *args):
     h << h.h1(_(u'Comments by entity'))
@@ -326,7 +259,7 @@ def render_ideas_on_alert_dashboard(self, h, comp, *args):
     def create_idea_box(idea_ids, page_title=_(u'Ideas on alert')):
         query = lambda: IdeaRepository().get_by_ids(idea_ids)
         pager = IdeaPager(self.parent, query)
-        return IdeaPagerBox(pager, model='simple', title=page_title,
+        return IdeaPagerBox(InfinitePager(component.Component(pager, model='ideas-list')), model='simple', title=page_title,
                             ok_button=_(u'Back to the dashboard'))
 
     self.ideas_on_alert.on_answer(
@@ -384,42 +317,6 @@ def render_ideas_by_domain(self, h, comp, *args):
     h << h.h1(_(u'Ideas by domain'))
     render_dashboard_panel(h, comp,
                            'ideas_by_domain_list', 'ideas_by_domain_chart')
-    return h.root
-
-
-@presentation.render_for(Dashboard, model='ideas_by_entity')
-def render_ideas_by_entity(self, h, *args):
-    h << h.h1(_(u'Ideas by unit and by challenge'))
-
-    with h.div:  # div required for progressive enhancement
-        with h.table(id='ideas_by_entity', class_='datatable'):
-            with h.thead:
-                with h.tr:
-                    h << h.th(_(u'Unit'), title=_(u'Unit'))
-                    h << h.th(_(u'Workforce'), title=_(u'Workforce'))
-                    h << h.th(_(u'Challenge'), title=_(u'Challenge'))
-                    h << h.th(_(u'Ideas'), title=_(u'Ideas'))
-                    h << h.th(_(u'Submitters'), title=_(u'Submitters'))
-                    h << h.th(_(u'Submitters percentage'), title=_(u'Submitters percentage'))
-
-            with h.tbody:
-                for unit, workforce, challenge, ideas_count, nb_authors, workforce_ratio in self.get_ideas_count_by_entity():
-                    with h.tr:
-                        h << h.td(unit)
-                        h << h.td(workforce)
-                        challenge_text = u'#%s %s' % (challenge.id, limit_string(challenge.title, 25)) if challenge else _(u'Off challenge')
-                        h << h.td(challenge_text)
-                        h << h.td(ideas_count)
-                        h << h.td(nb_authors)
-                        h << h.td("%.2f %%" % workforce_ratio)
-
-    # all columns should be sortable
-    col_defs = [ColumnDefinition(type) for type in (
-        'string', 'number', 'string', 'number', 'number', 'percentage')]
-    # 2*10px padding + 1px border
-    h << component.Component(TableEnhancement('ideas_by_entity', col_defs, -21)
-                             ).render(h)
-
     return h.root
 
 

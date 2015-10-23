@@ -35,6 +35,7 @@
 # =-
 
 import os
+import shutil
 import random
 import string
 import sys
@@ -92,6 +93,17 @@ class ConfigurationEnabledTestCase(unittest.TestCase):
         security.set_manager(app.security)
 
     def tearDown(self):
+        # Delete data files
+        for dir_ in ('profile-thumbnails', 'profile-photo'):
+            path = test_resource_path(dir_)
+            for f in os.listdir(path):
+                if f != 'EMPTY_DIR':
+                    p = os.path.join(path, f)
+                    if os.path.isdir(p):
+                        shutil.rmtree(os.path.join(path, f))
+                    else:
+                        os.remove(p)
+
         # clear the configuration
         registry.configure(None)
 

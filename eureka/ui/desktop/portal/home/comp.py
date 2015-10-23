@@ -126,14 +126,14 @@ class ImprovementsLink(object):
 
 class IdeasByDomain(object):
     def find_count_by_domain(self):
-        return (session.query(DomainData.id, DomainData.label, func.count(IdeaData.id))
+        return (session.query(DomainData.id, DomainData.i18n_label_column(), func.count(IdeaData.id))
                        .join(DomainData.ideas)
                        .join(IdeaData.wf_context)
                        .join(IdeaWFContextData.state)
                        .filter(StateData.label.in_(get_workflow().get_published_states()))
                        .group_by(DomainData.id)
                        .having(func.count(IdeaData.id) > 0)
-                       .order_by(DomainData.rank, DomainData.label))
+                       .order_by(DomainData.rank, DomainData.i18n_label_column()))
 
 
 class IdeaCounter(object):

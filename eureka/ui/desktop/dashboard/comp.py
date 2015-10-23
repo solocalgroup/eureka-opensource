@@ -35,6 +35,7 @@
 # =-
 
 import cStringIO as StringIO
+import collections
 import itertools
 import operator
 from datetime import datetime, timedelta
@@ -48,7 +49,6 @@ from eureka.domain.models import (CommentData, DomainData, IdeaData,
 from eureka.domain.repositories import (ChallengeRepository, IdeaRepository,
                                         WFCommentRepository)
 from eureka.domain.services import get_workflow, StatisticsService
-from eureka.domain.user_groups import AllUnitsGroups
 from eureka.infrastructure import event_management, validators
 from eureka.infrastructure.content_types import excel_response
 from eureka.infrastructure.tools import group_as_dict, percentage
@@ -179,22 +179,21 @@ class Dashboard(object):
         workflow = get_workflow()
         q = session.query(
             DomainData.id,
-            DomainData.label,
-            func.count(IdeaData.id).label('count'),
-            StateData.label.label('state'))
+            DomainData.i18n_label_column(),
+            func.count(IdeaData.id),
+            StateData.label)
         q = q.outerjoin(DomainData.ideas).outerjoin(IdeaData.wf_context)
         q = q.outerjoin(IdeaWFContextData.state)
         q = q.filter(StateData.label.in_(workflow.get_approved_states() +
                                          workflow.get_refused_states()))
         q = q.group_by(DomainData.id, StateData.label)
-        res = {}
-        for elt in q:
-            if elt.label not in res:
-                res[elt.label] = [0, 0]
-            if elt.state == workflow.WFStates.DI_APPROVED_STATE:
-                res[elt.label][0] = int(elt.count)
+
+        res = collections.defaultdict(lambda: [0, 0])
+        for domain_id, domain_label, count, state in q:
+            if state == workflow.WFStates.DI_APPROVED_STATE:
+                res[domain_label][0] = int(count)
             else:
-                res[elt.label][1] = int(elt.count)
+                res[domain_label][1] = int(count)
         return res
 
     def get_ideas_count_by_domain_state_chart(self, width, height):
@@ -206,7 +205,7 @@ class Dashboard(object):
             domains_sums[domain] = int(nb)
 
         for label, vals in self.get_ideas_count_by_domain_state().items():
-            labels.append(_(label))
+            labels.append(label)
             values[0].append(vals[0])
             values[1].append(vals[1])
             values[2].append(domains_sums.get(label) - vals[0] - vals[1])
@@ -219,23 +218,6 @@ class Dashboard(object):
                                              _(u'Basket'),
                                              _(u'Others')])
         return chart.get_png()
-
-    def get_ideas_count_by_entity(self):
-        statistics_service = StatisticsService()
-        challenges = list(ChallengeRepository().get_all()) + [None]
-        results = []
-        for group in AllUnitsGroups:
-            name = group.name
-            workforce = len(group.users)
-            for challenge in challenges:
-                total_ideas, nb_authors = statistics_service.get_users_statistics_on_ideas(
-                    tuple(group.users),
-                    challenge=challenge)
-                authors_percentage = percentage(nb_authors, workforce)
-
-                results.append((name, workforce, challenge, total_ideas,
-                                nb_authors, authors_percentage))
-        return results
 
     def get_active_users_by_entity(self):
         q = session.query(
@@ -358,15 +340,6 @@ class Dashboard(object):
 
         # Results sorted by descending ratio
         return sorted(r, key=lambda row: row[5], reverse=True)
-
-    def get_status_by_entity(self):
-        statistics_service = StatisticsService()
-        results = []
-        for group in AllUnitsGroups:
-            statistics = statistics_service.get_users_points_statistics(
-                group.users)
-            results.append((group.name, statistics))
-        return results
 
     def get_latecomer_fi(self, n_days=7):
         n_days_ago = datetime.now() - timedelta(days=n_days)

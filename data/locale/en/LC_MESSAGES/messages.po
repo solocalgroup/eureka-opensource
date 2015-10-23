@@ -1448,7 +1448,7 @@ msgstr "You have %d idea(s) in the draft state"
 
 #, python-format
 msgid "You have %d ideas in state DSIG_BASKET_STATE"
-msgstr ""
+msgstr "You have %d idea(s) in the administrator basket"
 
 #, python-format
 msgid "You have %d ideas in state PROTOTYPE_REFUSED_STATE"
@@ -1496,7 +1496,7 @@ msgstr "You have %d idea(s) whose implementation is refused"
 
 #, python-format
 msgid "You have %d ideas in state SELECTED_STATE"
-msgstr ""
+msgstr "You have %d selected idea(s)"
 
 #, python-format
 msgid "You have %d ideas in state DI_APPRAISAL_STATE"
