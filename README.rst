@@ -8,6 +8,7 @@ Eureka open is a solution that requires a custom Python implementation called `S
 
     $ wget http://www.stackless.com/binaries/stackless-278-export.tar.bz2
     $ tar xf stackless-278-export.tar.bz2
+    $ cd stackless-278-export
     $ ./configure --prefix=<STACKLESS_DIR> && make -j3 all && make install
 
 .. _Stackless Python: http://www.stackless.com
@@ -17,7 +18,7 @@ I.2 Virtualenv and setuptools install
 
 In order to isolate your Eureka project, you can install and use ``virtualenv``. To do so within you fresh Stackless Python, you can execute the following commands::
 
-    $ wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | <STACKLESS_DIR>/bin/python
+    $ wget https://bootstrap.pypa.io/ez_setup.py -O - | <STACKLESS_DIR>/bin/python
     $ <STACKLESS_DIR>/bin/easy_install virtualenv
 
 Note: you can also find some more details on how to install Stackless Python on `its documentation`_
@@ -30,15 +31,16 @@ I.3 Eureka installation
 You can create our virtualenv by doing::
 
     $ <STACKLESS_DIR>/bin/virtualenv <EUREKA_DIR>
+    $ cd <EUREKA_DIR>
 
 You can finally install Eureka open with ``easy_install``::
 
-    $ <EUREKA_DIR>/bin/easy_install eureka-opensource
+    $ ./bin/easy_install eureka-opensource
 
 Or download the `compressed archive from PyPI`_ or `from Github`_, extract it, and inside it
 run::
 
-    $ <EUREKA_DIR>/bin/python setup.py install
+    $ ./bin/easy_install <archive>
 
 .. _compressed archive from PyPI: https://pypi.python.org/pypi/eureka-opensource
 .. _from Github: https://github.com/solocalgroup/eureka-opensource
@@ -68,12 +70,12 @@ This section covers the main areas you may want to customize within your Eureka 
 
 Please note that the below changes are explained in the context of a fresh copy of the code that is not yet installed. If this is already the case, you can still apply these changes but the provided locations will be different. Indeed, please consider the result of the following command as being your ``<EUREKA_DIR>`` onwards or just re-install Eureka after any customization::
 
-    $ <EUREKA_DIR>/bin/python -c "import pkg_resources; print pkg_resources.get_distribution('eureka').location"
+    $ <EUREKA_DIR>/bin/python -c "import pkg_resources; print pkg_resources.get_distribution('eureka-opensource').location"
 
 II.1 Nagare related configuration
 ---------------------------------
 
-As Nagare is based upon the Nagare Framework, the default configuration for the application can be found in ``<EUREKA_DIR>/conf/eureka.conf``.
+As Nagare is based upon the Nagare Framework, the default configuration for the application can be found in ``<EUREKA_DIR>/conf/eureka.cfg``.
 
 In order to understand how to customize non domain specific parameters such as some basic application settings or the type of database to use, you can refer to `this page`_ to find the needed information.
 
@@ -82,10 +84,10 @@ In order to understand how to customize non domain specific parameters such as s
 II.2 Eureka specific configuration & customization
 --------------------------------------------------
 
-In order to customize your application, you can modify the configuration file available at ``<EUREKA_DIR>/conf/eureka.conf`` and adapt it to your taste.
+In order to customize your application, you can modify the configuration file available at ``<EUREKA_DIR>/conf/eureka.cfg`` and adapt it to your taste.
 This `EUREKA_DIR` can be found using the following command::
 
-    $ <EUREKA_DIR>/bin/python -c "import pkg_resources; print pkg_resources.get_distribution('eureka').location"
+    $ <EUREKA_DIR>/bin/python -c "import pkg_resources; print pkg_resources.get_distribution('eureka-opensource').location"
 
 Among the configurable aspects of Eureka can be found:
 
@@ -97,7 +99,7 @@ Among the configurable aspects of Eureka can be found:
 * ``search_engine``: By default uses Whoosh, but can also support Solr
 * ``dashboard``: Configuration of satistics to be displayed on your dashboard
 
-Detailed explanations on the aforementioned sections can be found directly within the ``<EUREKA_DIR>/conf/eureka.conf`` configuration file.
+Detailed explanations on the aforementioned sections can be found directly within the ``<EUREKA_DIR>/conf/eureka.cfg`` configuration file.
 
 Idea domains
 ^^^^^^^^^^^^
@@ -204,7 +206,7 @@ III.1 Development mode
 
 In order to install Eureka in development mode, you can simply type::
 
-    $ <EUREKA_DIR>/bin/easy_install --editable --build-directory <EUREKA_DIR> eureka-open
+    $ <EUREKA_DIR>/bin/easy_install --editable --build-directory <EUREKA_DIR> eureka-opensource
 
 III.2 Contributing
 ------------------
