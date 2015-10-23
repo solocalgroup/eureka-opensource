@@ -50,7 +50,7 @@ I.5 Database creation
 
 By default, Eureka open is using a standard SQLite database for its persistence. So to create the database and its schema, you can use the following `Nagare command`_::
 
-    $ <EUREKA_DIR>/bin/nagare-admin create-db eureka
+    $ ./bin/nagare-admin create-db eureka
 
 .. _Nagare command: http://www.nagare.org/trac/wiki/NagareAdmin
 
@@ -59,7 +59,7 @@ I.6 Standalone application startup
 
 Now that your application has been successfully set up, you can run it in standalone mode using the following command::
 
-    $ <EUREKA_DIR>/bin/nagare-admin serve eureka
+    $ ./bin/nagare-admin serve eureka
 
 And Voilà, you can now access your Eureka by accessing http://127.0.0.1:8080 in your favourite browser.
 
