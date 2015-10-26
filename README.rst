@@ -4,7 +4,15 @@ I Quick start
 I.1 Stackless Python installation
 ---------------------------------
 
-Eureka open is a solution that requires a custom Python implementation called `Stackless Python`_ (version 2.7.X). In order to install it, you can do it via the sources via the following commands::
+Eureka is a solution that requires a custom Python implementation called `Stackless Python`_ (version 2.7).
+
+In order to install it via the sources, first ensure you have the prerequisite system dependencies :
+
+- For Debian based distributions::
+
+    sudo apt-get install --no-install-recommends autoconf automake bzip2 ca-certificates file g++ gawk gcc libbz2-dev libffi-dev libfreetype6-dev libgdbm-dev libjpeg-dev libncurses-dev libopenjpeg-dev libpng-dev libpq-dev libreadline-dev libsqlite3-dev libssl-dev libtiff-dev libtool libwebp-dev libxml2-dev libxslt-dev make patch pkg-config wget xz-utils zlib1g-dev
+
+then complete the following commands::
 
     $ wget http://www.stackless.com/binaries/stackless-278-export.tar.bz2
     $ tar xf stackless-278-export.tar.bz2
@@ -28,7 +36,7 @@ Note: you can also find some more details on how to install Stackless Python on 
 I.3 Eureka installation
 -----------------------
 
-You can create our virtualenv by doing::
+You can create your ``virtualenv`` by doing::
 
     $ <STACKLESS_DIR>/bin/virtualenv <EUREKA_DIR>
     $ cd <EUREKA_DIR>
@@ -48,7 +56,7 @@ run::
 I.5 Database creation
 ---------------------
 
-By default, Eureka open is using a standard SQLite database for its persistence. So to create the database and its schema, you can use the following `Nagare command`_::
+By default, Eureka is using a standard SQLite database for its persistence. So to create the database and its schema, you can use the following `Nagare command`_::
 
     $ ./bin/nagare-admin create-db eureka
 
