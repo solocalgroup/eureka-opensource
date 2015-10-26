@@ -3,7 +3,7 @@ supervisor==3.0
 meld3==0.6.8
 ConfigObj
 
-Pillow>=2.6
+Pillow>=2.6,<3.0.0
 reportlab==2.5
 xlwt==0.7.4
 pycrypto==2.6.1
