@@ -45,8 +45,7 @@ You can finally install Eureka open with ``easy_install``::
 
     $ ./bin/easy_install eureka-opensource
 
-Or download the `compressed archive from PyPI`_ or `from Github`_, extract it, and inside it
-run::
+Or download the `compressed archive from PyPI`_ or `from Github`_ and run::
 
     $ ./bin/easy_install <archive>
 
