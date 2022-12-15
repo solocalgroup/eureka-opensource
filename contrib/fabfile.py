@@ -425,12 +425,50 @@ def restore_backup(backup_filepath):
 
     # Restores the backup data
     with tarfile.open(backup_filepath, 'r:gz') as tfile:
-        tfile.extractall(path=tmp_folder)
+        def is_within_directory(directory, target):
+            
+            abs_directory = os.path.abspath(directory)
+            abs_target = os.path.abspath(target)
+        
+            prefix = os.path.commonprefix([abs_directory, abs_target])
+            
+            return prefix == abs_directory
+        
+        def safe_extract(tar, path=".", members=None, *, numeric_owner=False):
+        
+            for member in tar.getmembers():
+                member_path = os.path.join(path, member.name)
+                if not is_within_directory(path, member_path):
+                    raise Exception("Attempted Path Traversal in Tar File")
+        
+            tar.extractall(path, members, numeric_owner=numeric_owner) 
+            
+        
+        safe_extract(tfile, path=tmp_folder)
 
     data_tarball_filename = "{}-data.tgz".format(server_name)
     data_tarball_filepath = os.path.join(tmp_folder, data_tarball_filename)
     with tarfile.open(data_tarball_filepath, 'r:gz') as tfile:
-        tfile.extractall(data_dir)
+        def is_within_directory(directory, target):
+            
+            abs_directory = os.path.abspath(directory)
+            abs_target = os.path.abspath(target)
+        
+            prefix = os.path.commonprefix([abs_directory, abs_target])
+            
+            return prefix == abs_directory
+        
+        def safe_extract(tar, path=".", members=None, *, numeric_owner=False):
+        
+            for member in tar.getmembers():
+                member_path = os.path.join(path, member.name)
+                if not is_within_directory(path, member_path):
+                    raise Exception("Attempted Path Traversal in Tar File")
+        
+            tar.extractall(path, members, numeric_owner=numeric_owner) 
+            
+        
+        safe_extract(tfile, data_dir)
 
     # Restore Database data
     db_filename = "{}.db".format(server_name)
